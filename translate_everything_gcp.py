@@ -13,7 +13,7 @@ import sys
 import requests
 from pathlib import Path
 
-API_KEY = "REDACTED_GOOGLE_API_KEY"
+API_KEY = os.environ.get("GOOGLE_API_KEY", "")  # set via: export GOOGLE_API_KEY=your_key
 API_ENDPOINT = "https://translation.googleapis.com/language/translate/v2"
 
 def translate_text(text):

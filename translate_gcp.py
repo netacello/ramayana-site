@@ -9,7 +9,7 @@ import os
 import requests
 
 # Set API key
-API_KEY = "REDACTED_GOOGLE_API_KEY"
+API_KEY = os.environ.get("GOOGLE_API_KEY", "")  # set via: export GOOGLE_API_KEY=your_key
 
 # Load English text
 print("Loading English Ramayana text...")
