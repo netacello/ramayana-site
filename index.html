@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Rámáyan of Válmíki — Griffith Translation with Commentary</title>
+  <meta name="description" content="The complete Rámáyan of Válmíki in English verse, translated by Ralph T.H. Griffith (1870–1874), with original scholarly commentary. Also available in Hebrew / גם בעברית.">
+  <meta property="og:title" content="The Rámáyan of Válmíki — Griffith Translation">
+  <meta property="og:description" content="Complete Ramayana in English verse (Griffith, 1870–1874) with side-by-side scholarly commentary, full-text search, and night mode.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#1A2340">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- English fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Hebrew fonts: Frank Ruhl Libre (classical verse) + Heebo (UI/commentary) -->
+  <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&family=Heebo:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="search-bar" role="banner">
+    <button id="sidebar-toggle-btn" aria-label="Toggle navigation sidebar" title="Toggle sidebar">&#9776;</button>
+    <span class="site-title-bar">The Rámáyan of Válmíki</span>
+    <input id="search-input" type="search" placeholder="Search text and commentary (Ctrl+F)&#8230;" aria-label="Search the Ramayana" autocomplete="off">
+    <button id="search-btn" aria-label="Run search" title="Search">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    </button>
+    <div class="reading-controls" role="group" aria-label="Reading mode and display options">
+      <button id="mode-both"        class="mode-btn active" title="Show text and commentary">Both</button>
+      <button id="mode-text"        class="mode-btn"        title="Show text only">Text only</button>
+      <button id="mode-commentary"  class="mode-btn"        title="Show commentary only">Commentary</button>
+      <label class="sync-label" title="Synchronize scrolling between text and commentary panels">
+        <input id="sync-scroll" type="checkbox" aria-label="Sync scroll">
+        <span class="sync-label-text">Sync</span>
+      </label>
+      <button id="night-mode-btn" class="theme-btn" title="Toggle night mode">Night</button>
+      <button id="lang-btn" class="lang-btn" title="Switch language / שינוי שפה" aria-label="Switch to Hebrew">עברית</button>
+    </div>
+  </div>
+
+  <div id="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-hidden="true"></div>
+
+  <div id="app">
+    <nav id="sidebar" aria-label="Book and canto navigation">
+      <div class="sidebar-inner" id="nav-tree" role="tree"></div>
+    </nav>
+
+    <main id="main" role="main">
+      <div id="loading">
+        <p style="font-family:'Cormorant Garamond',serif;font-size:1.4rem;text-align:center;padding:5rem 2rem;color:#C0542A;">
+          Loading the Ramayana&hellip;
+        </p>
+      </div>
+    </main>
+  </div>
+
+  <div id="search-results" role="dialog" aria-modal="true" aria-label="Search results" aria-hidden="true"></div>
+
+  <script src="data/text.js"></script>
+  <script src="data/commentary.js"></script>
+  <script src="site.js"></script>
+</body>
+</html>

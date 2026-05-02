@@ -1,0 +1,1711 @@
+/* ============================================================
+   Ramayana Reader — style.css
+   ============================================================ */
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Inter:wght@400;500&display=swap');
+
+/* ============================================================
+   CSS Custom Properties
+   ============================================================ */
+:root {
+  --text-bg:    #FDF6E3;
+  --comm-bg:    #FFFFFF;
+  --accent:     #C0542A;
+  --gold:       #D4A017;
+  --nav-bg:     #1A2340;
+  --nav-text:   #EDE8D0;
+  --sidebar-w:  280px;
+  --search-h:   52px;
+
+  /* Derived / utility tokens */
+  --transition-fast: 0.18s ease;
+  --transition-med:  0.28s ease;
+  --radius-sm:  6px;
+  --radius-md:  10px;
+  --shadow-card: 0 2px 12px rgba(0, 0, 0, 0.12);
+}
+
+/* Night-mode overrides */
+body.night-mode {
+  --text-bg:  #1C1C1E;
+  --comm-bg:  #242426;
+  color: #E8E0CC;
+}
+
+/* ============================================================
+   Reset & Base
+   ============================================================ */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  background: var(--text-bg);
+  color: #2A2217;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: var(--search-h);
+  transition: background var(--transition-med), color var(--transition-med);
+}
+
+body.night-mode {
+  color: #E8E0CC;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* ============================================================
+   1. Search Bar (#search-bar)
+   ============================================================ */
+#search-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--search-h);
+  background: var(--nav-bg);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 16px;
+  z-index: 900;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+/* Hamburger — hidden on desktop, shown on mobile */
+#sidebar-toggle-btn {
+  display: none;
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  color: var(--nav-text);
+  font-size: 1.25rem;
+  background: rgba(255, 255, 255, 0.08);
+  transition: background var(--transition-fast);
+}
+
+#sidebar-toggle-btn:hover {
+  background: rgba(255, 255, 255, 0.16);
+}
+
+/* Hamburger icon lines */
+#sidebar-toggle-btn .hamburger-line {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: var(--nav-text);
+  border-radius: 2px;
+  transition: transform var(--transition-fast), opacity var(--transition-fast);
+}
+
+#sidebar-toggle-btn .hamburger-line + .hamburger-line {
+  margin-top: 4px;
+}
+
+/* Site title */
+.site-title-bar {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: var(--gold);
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-right: 4px;
+}
+
+/* Search input wrapper */
+#search-input {
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 34px;
+  padding: 0 14px;
+  border-radius: 17px;
+  border: 1px solid rgba(237, 232, 208, 0.28);
+  background: rgba(255, 255, 255, 0.09);
+  color: var(--nav-text);
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+  outline: none;
+  transition: border-color var(--transition-fast), background var(--transition-fast);
+}
+
+#search-input::placeholder {
+  color: rgba(237, 232, 208, 0.5);
+}
+
+#search-input:focus {
+  border-color: var(--gold);
+  background: rgba(255, 255, 255, 0.14);
+}
+
+/* Search submit button */
+#search-btn {
+  flex-shrink: 0;
+  height: 34px;
+  padding: 0 14px;
+  border-radius: 17px;
+  background: var(--accent);
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  transition: background var(--transition-fast), transform var(--transition-fast);
+}
+
+#search-btn:hover {
+  background: #a84824;
+  transform: translateY(-1px);
+}
+
+#search-btn:active {
+  transform: translateY(0);
+}
+
+/* Reading controls */
+.reading-controls {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.reading-controls .mode-btn {
+  height: 30px;
+  padding: 0 10px;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(237, 232, 208, 0.25);
+  color: rgba(237, 232, 208, 0.75);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  background: rgba(255, 255, 255, 0.06);
+  transition: background var(--transition-fast), color var(--transition-fast), border-color var(--transition-fast);
+}
+
+.reading-controls .mode-btn:hover,
+.reading-controls .mode-btn.active {
+  background: rgba(212, 160, 23, 0.18);
+  color: var(--gold);
+  border-color: rgba(212, 160, 23, 0.5);
+}
+
+/* Sync label in reading controls */
+.sync-label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: rgba(237, 232, 208, 0.75);
+  font-size: 0.75rem;
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.sync-label input[type="checkbox"] {
+  accent-color: var(--gold);
+  width: 14px;
+  height: 14px;
+}
+
+/* Night-mode toggle button */
+#night-mode-btn {
+  flex-shrink: 0;
+  height: 30px;
+  padding: 0 10px;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(237, 232, 208, 0.25);
+  color: rgba(237, 232, 208, 0.75);
+  background: rgba(255, 255, 255, 0.06);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+
+#night-mode-btn:hover {
+  background: rgba(212, 160, 23, 0.18);
+  color: var(--gold);
+}
+
+/* ============================================================
+   2. Progress Bar (#progress-bar)
+   ============================================================ */
+#progress-bar {
+  position: fixed;
+  top: var(--search-h);
+  left: var(--sidebar-w);
+  right: 0;
+  height: 3px;
+  background: var(--gold);
+  transform-origin: left center;
+  transform: scaleX(0);
+  z-index: 890;
+  transition: transform 0.1s linear;
+  pointer-events: none;
+}
+
+/* ============================================================
+   3. Sidebar (#sidebar)
+   ============================================================ */
+#sidebar {
+  position: fixed;
+  top: var(--search-h);
+  left: 0;
+  width: var(--sidebar-w);
+  bottom: 0;
+  background: var(--nav-bg);
+  color: var(--nav-text);
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 800;
+  display: flex;
+  flex-direction: column;
+  transition: transform var(--transition-med);
+
+  /* Custom scrollbar */
+  scrollbar-width: thin;
+  scrollbar-color: rgba(212, 160, 23, 0.35) transparent;
+}
+
+#sidebar::-webkit-scrollbar {
+  width: 4px;
+}
+
+#sidebar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#sidebar::-webkit-scrollbar-thumb {
+  background: rgba(212, 160, 23, 0.35);
+  border-radius: 2px;
+}
+
+/* Nav tree */
+#nav-tree {
+  padding: 12px 0 40px;
+  flex: 1;
+}
+
+/* Introduction link */
+.nav-intro {
+  border-bottom: 1px solid rgba(237, 232, 208, 0.08);
+}
+
+.nav-intro-link {
+  display: block;
+  padding: 11px 18px 11px 16px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--gold);
+  letter-spacing: 0.025em;
+  cursor: pointer;
+  transition: background var(--transition-fast);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.nav-intro-link:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.nav-intro-link.active {
+  background: rgba(212, 160, 23, 0.1);
+  color: var(--gold);
+}
+
+/* Book container */
+.nav-book {
+  border-bottom: 1px solid rgba(237, 232, 208, 0.08);
+}
+
+/* Book header (clickable) */
+.nav-book-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 11px 18px 11px 16px;
+  cursor: pointer;
+  user-select: none;
+  transition: background var(--transition-fast);
+}
+
+.nav-book-header:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.nav-book-header .book-title-nav {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--gold);
+  letter-spacing: 0.025em;
+  line-height: 1.35;
+  flex: 1;
+  min-width: 0;
+}
+
+/* Expand icon */
+.expand-icon {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(237, 232, 208, 0.45);
+  font-size: 0.7rem;
+  transition: transform var(--transition-med);
+}
+
+/* Rotate when book is open (not collapsed) */
+.nav-book:not(.collapsed) .expand-icon {
+  transform: rotate(90deg);
+}
+
+/* Cantos list — visible when not collapsed */
+.nav-cantos {
+  overflow: hidden;
+  max-height: 2000px;
+  transition: max-height var(--transition-med);
+}
+
+.nav-book.collapsed .nav-cantos {
+  max-height: 0;
+  display: none;
+}
+
+/* Individual canto link */
+.nav-canto {
+  display: block;
+  padding: 5px 16px 5px 28px;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.76rem;
+  font-weight: 400;
+  color: var(--nav-text);
+  opacity: 0.72;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  transition: background var(--transition-fast), opacity var(--transition-fast), color var(--transition-fast);
+  border-left: 2px solid transparent;
+  margin-left: 14px;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.nav-canto:hover {
+  background: rgba(255, 255, 255, 0.07);
+  opacity: 1;
+}
+
+.nav-canto.active {
+  color: var(--gold);
+  opacity: 1;
+  border-left-color: var(--gold);
+  background: rgba(212, 160, 23, 0.1);
+  font-weight: 500;
+}
+
+/* ============================================================
+   4. Main Content Area (#main)
+   ============================================================ */
+#main {
+  margin-left: var(--sidebar-w);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - var(--search-h));
+}
+
+/* ============================================================
+   5. Book Header Banners (.book-header)
+   ============================================================ */
+.book-header {
+  position: relative;
+  width: 100%;
+  height: 360px;
+  overflow: hidden;
+  background: #111;
+}
+
+.book-header-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  opacity: 0.7;
+  transition: opacity var(--transition-med);
+}
+
+.book-header-gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(0, 0, 0, 0.18) 45%,
+    rgba(0, 0, 0, 0.85) 100%
+  );
+}
+
+.book-header-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 28px 40px 32px;
+  color: #fff;
+}
+
+.book-header-text .book-number {
+  display: block;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 8px;
+}
+
+.book-header-text h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.15;
+  color: #fff;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.55);
+}
+
+/* Book / section wrappers */
+.book-section {
+  width: 100%;
+}
+
+.book-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 6px;
+  letter-spacing: 0.02em;
+}
+
+.book-intro {
+  padding: 32px 44px;
+  max-width: 900px;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.92rem;
+  line-height: 1.75;
+  color: #3A3020;
+}
+
+body.night-mode .book-intro {
+  color: #C0B8A0;
+}
+
+.book-intro p {
+  margin-bottom: 1rem;
+}
+
+.intro-content {
+  padding: 0 0 40px;
+}
+
+.cantos-container {
+  width: 100%;
+}
+
+/* Individual canto wrapper */
+.canto {
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+body.night-mode .canto {
+  border-bottom-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Canto header (title + divider) */
+.canto-header {
+  padding: 28px 44px 0;
+  background: var(--text-bg);
+  transition: background var(--transition-med);
+}
+
+body.night-mode .canto-header {
+  background: var(--text-bg);
+}
+
+.canto-title-text {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: var(--accent);
+  line-height: 1.25;
+  margin: 0 0 8px;
+}
+
+body.night-mode .canto-title-text {
+  color: var(--gold);
+}
+
+.canto-divider {
+  border: none;
+  border-top: 1px solid rgba(192, 84, 42, 0.2);
+  margin: 8px 0 0;
+}
+
+body.night-mode .canto-divider {
+  border-top-color: rgba(212, 160, 23, 0.2);
+}
+
+/* Commentary text inside commentary column */
+.commentary-text p {
+  margin-bottom: 0.9rem;
+}
+
+.commentary-placeholder {
+  font-style: italic;
+  color: #aaa;
+  font-size: 0.84rem;
+  padding: 12px 0;
+}
+
+body.night-mode .commentary-placeholder {
+  color: #666;
+}
+
+/* ============================================================
+   6. Intro Hero (.intro-hero)
+   ============================================================ */
+.intro-hero {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  background: #0D1526;
+}
+
+.intro-hero .intro-hero-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  opacity: 0.6;
+}
+
+.intro-hero .intro-hero-gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(13, 21, 38, 0.1) 0%,
+    rgba(13, 21, 38, 0.25) 40%,
+    rgba(13, 21, 38, 0.88) 100%
+  );
+}
+
+.intro-hero .intro-hero-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 32px 48px 40px;
+  color: #fff;
+}
+
+.intro-hero .intro-hero-text .hero-eyebrow {
+  display: block;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 12px;
+}
+
+.intro-hero .intro-hero-text h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 3.5rem;
+  line-height: 1.12;
+  color: #fff;
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.6);
+  margin-bottom: 12px;
+}
+
+.intro-hero .intro-hero-text p {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.78);
+  max-width: 560px;
+  line-height: 1.7;
+}
+
+/* ============================================================
+   7. Reader Columns (.reader-columns)
+   ============================================================ */
+.reader-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  width: 100%;
+}
+
+/* Text-only mode */
+body.mode-text .reader-columns {
+  grid-template-columns: 1fr;
+}
+
+body.mode-text .commentary-column {
+  display: none;
+}
+
+/* Commentary-only mode */
+body.mode-commentary .reader-columns {
+  grid-template-columns: 1fr;
+}
+
+body.mode-commentary .text-column {
+  display: none;
+}
+
+/* ============================================================
+   8. Text Column & Commentary Column
+   ============================================================ */
+.text-column {
+  background: var(--text-bg);
+  padding: 40px 44px 60px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.05rem;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #2A2217;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  min-height: 100%;
+  transition: background var(--transition-med), color var(--transition-med);
+}
+
+body.night-mode .text-column {
+  color: #E8E0CC;
+  border-right-color: rgba(255, 255, 255, 0.08);
+}
+
+.text-column h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: var(--accent);
+  margin: 32px 0 14px;
+  line-height: 1.3;
+}
+
+body.night-mode .text-column h3 {
+  color: var(--gold);
+}
+
+.commentary-column {
+  background: var(--comm-bg);
+  padding: 40px 40px 60px;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.88rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #333;
+  transition: background var(--transition-med), color var(--transition-med);
+}
+
+body.night-mode .commentary-column {
+  color: #C8C0B2;
+}
+
+.commentary-column h3 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 0.82rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 30px 0 10px;
+}
+
+.commentary-column p {
+  margin-bottom: 1em;
+}
+
+/* ============================================================
+   9. Verse Paragraphs (.verse-para)
+   ============================================================ */
+.verse-para {
+  white-space: pre-wrap;
+  cursor: pointer;
+  padding: 10px 14px;
+  margin-bottom: 4px;
+  border-left: 3px solid transparent;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  transition:
+    border-color var(--transition-fast),
+    background var(--transition-fast);
+  position: relative;
+}
+
+.verse-para:hover {
+  border-left-color: rgba(212, 160, 23, 0.55);
+  background: rgba(212, 160, 23, 0.06);
+}
+
+.verse-para.highlighted {
+  border-left-color: var(--gold);
+  background: rgba(212, 160, 23, 0.1);
+}
+
+body.night-mode .verse-para:hover {
+  background: rgba(212, 160, 23, 0.09);
+}
+
+body.night-mode .verse-para.highlighted {
+  background: rgba(212, 160, 23, 0.12);
+}
+
+/* Verse number badge */
+.verse-para .verse-num {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.68rem;
+  font-weight: 500;
+  color: var(--gold);
+  opacity: 0.7;
+  margin-right: 8px;
+  vertical-align: super;
+  user-select: none;
+}
+
+/* ============================================================
+   10. Key Idea Callout (.key-idea)
+   ============================================================ */
+.key-idea {
+  border-left: 4px solid var(--gold);
+  background: rgba(212, 160, 23, 0.07);
+  padding: 16px 20px;
+  margin: 24px 0;
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  font-style: italic;
+  line-height: 1.75;
+}
+
+body.night-mode .key-idea {
+  background: rgba(212, 160, 23, 0.1);
+}
+
+.key-idea-label {
+  display: block;
+  font-style: normal;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 8px;
+}
+
+/* ============================================================
+   11. Inline Images (.inline-image)
+   ============================================================ */
+.inline-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  margin: 32px auto;
+}
+
+.inline-image img {
+  width: 100%;
+  border-radius: var(--radius-md);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.18);
+  object-fit: cover;
+}
+
+.inline-image figcaption {
+  margin-top: 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.78rem;
+  font-style: italic;
+  color: #888;
+  text-align: center;
+  line-height: 1.5;
+}
+
+body.night-mode .inline-image figcaption {
+  color: #7A7060;
+}
+
+/* ============================================================
+   12. Vishnu Images (.vishnu-images)
+   ============================================================ */
+.vishnu-images {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: stretch;
+  margin: 28px 0;
+  flex-wrap: wrap;
+}
+
+.vishnu-images .vishnu-img-wrap {
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 220px;
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-card);
+}
+
+.vishnu-images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.vishnu-images .vishnu-img-wrap:hover img {
+  transform: scale(1.04);
+}
+
+/* ============================================================
+   13. Table of Contents Grid (.toc-grid, .toc-card)
+   ============================================================ */
+.toc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 36px 40px 48px;
+}
+
+.toc-card {
+  position: relative;
+  height: 200px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: var(--shadow-card);
+  transition: transform var(--transition-med), box-shadow var(--transition-med);
+  background: #1A2340;
+}
+
+.toc-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.22);
+}
+
+.toc-card .toc-card-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.6;
+  transition: opacity var(--transition-med);
+}
+
+.toc-card:hover .toc-card-img {
+  opacity: 0.72;
+}
+
+.toc-card .toc-card-gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(0, 0, 0, 0.75) 100%
+  );
+}
+
+.toc-card .toc-card-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 16px 18px;
+}
+
+.toc-card .toc-card-eyebrow {
+  display: block;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 5px;
+}
+
+.toc-card .toc-card-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #fff;
+  line-height: 1.2;
+}
+
+.toc-card .toc-card-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 3px;
+}
+
+/* ============================================================
+   13b. Kandas Grid (.kandas-grid)
+   ============================================================ */
+.kandas-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: var(--gold);
+  border: 1px solid var(--gold);
+  margin: 28px 44px;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.kandas-grid-cell {
+  background: var(--comm-bg);
+  padding: 14px 12px;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: #2A2217;
+}
+
+.kandas-grid-cell.kandas-header {
+  background: var(--gold);
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+body.night-mode .kandas-grid-cell {
+  background: var(--comm-bg);
+  color: #E8E0CC;
+}
+
+body.night-mode .kandas-grid-cell.kandas-header {
+  background: var(--gold);
+  color: #1A2340;
+}
+
+@media (max-width: 900px) {
+  .kandas-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .kandas-grid-cell {
+    font-size: 0.78rem;
+    padding: 12px 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .kandas-grid {
+    grid-template-columns: 1fr;
+    margin: 20px 16px;
+  }
+  .kandas-grid-cell {
+    padding: 10px 12px;
+  }
+}
+
+/* ============================================================
+   14. Search Results Overlay (#search-results)
+   ============================================================ */
+#search-results {
+  display: none;
+  position: fixed;
+  inset: 0;
+  left: var(--sidebar-w);
+  top: var(--search-h);
+  z-index: 850;
+  background: rgba(10, 10, 18, 0.55);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  align-items: flex-start;
+  justify-content: center;
+  padding: 32px 24px 24px;
+  overflow-y: auto;
+}
+
+#search-results.visible {
+  display: flex;
+}
+
+.search-results-panel {
+  background: #fff;
+  border-radius: var(--radius-md);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.28);
+  width: 100%;
+  max-width: 800px;
+  overflow: hidden;
+}
+
+body.night-mode .search-results-panel {
+  background: #2A2A2C;
+  color: #E8E0CC;
+}
+
+.search-results-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 22px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+body.night-mode .search-results-header {
+  border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+
+.search-results-header h3 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+body.night-mode .search-results-header h3 {
+  color: #CCC;
+}
+
+.search-results-close {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #888;
+  font-size: 1.1rem;
+  transition: background var(--transition-fast);
+}
+
+.search-results-close:hover {
+  background: rgba(0, 0, 0, 0.08);
+  color: #333;
+}
+
+.search-results-list {
+  padding: 8px 0 12px;
+  max-height: calc(100vh - var(--search-h) - 120px);
+  overflow-y: auto;
+}
+
+.search-result-item {
+  padding: 12px 22px;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  transition: background var(--transition-fast);
+}
+
+body.night-mode .search-result-item {
+  border-bottom-color: rgba(255, 255, 255, 0.05);
+}
+
+.search-result-item:last-child {
+  border-bottom: none;
+}
+
+.search-result-item:hover {
+  background: rgba(212, 160, 23, 0.07);
+}
+
+.search-result-item .result-location,
+.search-result-location {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 4px;
+}
+
+.search-result-item .result-snippet,
+.search-result-snippet {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+body.night-mode .search-result-item .result-snippet,
+body.night-mode .search-result-snippet {
+  color: #C8C0B2;
+}
+
+/* Highlighted match */
+.search-highlight {
+  background: var(--gold);
+  color: #1A1000;
+  border-radius: 2px;
+  padding: 0 2px;
+}
+
+.search-no-results {
+  padding: 32px 22px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+  color: #999;
+}
+
+/* ============================================================
+   15. Site Footer (.site-footer)
+   ============================================================ */
+.site-footer {
+  background: var(--nav-bg);
+  color: rgba(237, 232, 208, 0.55);
+  font-family: 'Inter', sans-serif;
+  font-size: 0.78rem;
+  text-align: center;
+  padding: 24px 32px;
+  line-height: 1.7;
+  margin-top: auto;
+}
+
+.site-footer a {
+  color: var(--gold);
+  opacity: 0.8;
+}
+
+.site-footer a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+/* ============================================================
+   16. Closing Image (.closing-image)
+   ============================================================ */
+.closing-image {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+
+.closing-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* ============================================================
+   17. Book VII Note (.book-vii-note)
+   ============================================================ */
+.book-vii-note {
+  border-left: 4px solid var(--accent);
+  background: rgba(192, 84, 42, 0.06);
+  padding: 16px 20px;
+  margin: 28px 0;
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+  line-height: 1.7;
+  color: #4A2A18;
+}
+
+body.night-mode .book-vii-note {
+  background: rgba(192, 84, 42, 0.1);
+  color: #D8A080;
+}
+
+.book-vii-note strong {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+/* ============================================================
+   Utility / Shared Content Styles
+   ============================================================ */
+
+/* Section padding helper */
+.content-section {
+  padding: 40px 44px;
+}
+
+/* Introductory text block */
+.intro-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.92rem;
+  line-height: 1.8;
+  color: #444;
+  max-width: 780px;
+  margin: 0 auto 32px;
+}
+
+body.night-mode .intro-text {
+  color: #A8A090;
+}
+
+/* Canto / section headings within text column */
+.canto-heading {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 1.55rem;
+  color: var(--accent);
+  margin: 44px 0 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(192, 84, 42, 0.2);
+  line-height: 1.25;
+}
+
+body.night-mode .canto-heading {
+  color: var(--gold);
+  border-bottom-color: rgba(212, 160, 23, 0.2);
+}
+
+.canto-subheading {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(42, 34, 23, 0.5);
+  margin-bottom: 20px;
+}
+
+body.night-mode .canto-subheading {
+  color: rgba(232, 224, 204, 0.4);
+}
+
+/* Sidebar overlay (mobile backdrop) */
+#sidebar-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  top: var(--search-h);
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 799;
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+}
+
+/* ============================================================
+   18. Responsive — 768px Breakpoint
+   ============================================================ */
+@media (max-width: 768px) {
+  :root {
+    --sidebar-w: 0px;
+  }
+
+  /* Show hamburger */
+  #sidebar-toggle-btn {
+    display: flex;
+  }
+
+  /* Hide title and reading controls on mobile */
+  .site-title-bar {
+    display: none;
+  }
+
+  .reading-controls {
+    display: none;
+  }
+
+  /* Sidebar: slide in from left */
+  #sidebar {
+    transform: translateX(-100%);
+    width: 280px;
+    box-shadow: 4px 0 24px rgba(0, 0, 0, 0.35);
+    z-index: 810;
+  }
+
+  #sidebar.open {
+    transform: translateX(0);
+  }
+
+  /* Show overlay when sidebar is open */
+  #sidebar.open ~ #sidebar-overlay,
+  #sidebar-overlay.visible {
+    display: block;
+  }
+
+  /* Progress bar resets to full width on mobile */
+  #progress-bar {
+    left: 0;
+  }
+
+  /* Main: no left margin */
+  #main {
+    margin-left: 0;
+  }
+
+  /* Reader columns become single column */
+  .reader-columns {
+    grid-template-columns: 1fr;
+  }
+
+  body.mode-text .reader-columns,
+  body.mode-commentary .reader-columns {
+    grid-template-columns: 1fr;
+  }
+
+  /* Book headers shorter */
+  .book-header {
+    height: 260px;
+  }
+
+  .book-header-text h2 {
+    font-size: 2.1rem;
+  }
+
+  .book-header-text {
+    padding: 18px 22px 22px;
+  }
+
+  /* Intro hero */
+  .intro-hero {
+    height: 380px;
+  }
+
+  .intro-hero .intro-hero-text h1 {
+    font-size: 2.4rem;
+  }
+
+  .intro-hero .intro-hero-text {
+    padding: 20px 22px 28px;
+  }
+
+  /* Text and commentary columns */
+  .text-column {
+    padding: 28px 22px 40px;
+    border-right: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .commentary-column {
+    padding: 28px 22px 40px;
+  }
+
+  /* Search results overlay */
+  #search-results {
+    left: 0;
+    padding: 16px 12px;
+  }
+
+  .search-results-panel {
+    max-width: 100%;
+  }
+
+  /* TOC grid */
+  .toc-grid {
+    grid-template-columns: 1fr;
+    padding: 24px 16px 32px;
+    gap: 14px;
+  }
+
+  /* Vishnu images: stack on very small screens */
+  .vishnu-images {
+    flex-wrap: wrap;
+  }
+
+  .vishnu-images .vishnu-img-wrap {
+    flex-basis: calc(50% - 6px);
+    height: 160px;
+  }
+
+  /* Closing image */
+  .closing-image {
+    height: 320px;
+  }
+
+  /* Content sections */
+  .content-section {
+    padding: 24px 20px;
+  }
+
+  /* Inline images */
+  .inline-image {
+    margin: 20px auto;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 420px) {
+  .vishnu-images .vishnu-img-wrap {
+    flex-basis: 100%;
+    height: 200px;
+  }
+
+  .book-header-text h2 {
+    font-size: 1.75rem;
+  }
+
+  #search-input {
+    min-width: 0;
+  }
+}
+
+/* ============================================================
+   Print styles (basic)
+   ============================================================ */
+@media print {
+  #search-bar,
+  #sidebar,
+  #progress-bar,
+  #search-results,
+  .site-footer {
+    display: none !important;
+  }
+
+  #main {
+    margin-left: 0;
+  }
+
+  .reader-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .text-column {
+    border: none;
+  }
+}
+
+/* ============================================================
+   Language Toggle Button (#lang-btn)
+   ============================================================ */
+.lang-btn {
+  flex-shrink: 0;
+  height: 30px;
+  padding: 0 10px;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(212, 160, 23, 0.45);
+  color: var(--gold);
+  background: rgba(212, 160, 23, 0.1);
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background var(--transition-fast), color var(--transition-fast), border-color var(--transition-fast);
+  white-space: nowrap;
+  font-family: 'Heebo', 'Inter', sans-serif;
+}
+
+.lang-btn:hover {
+  background: rgba(212, 160, 23, 0.22);
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+/* ============================================================
+   Hebrew / RTL Layout
+   ============================================================ */
+
+/* Hebrew fonts */
+html[lang="he"] .text-column {
+  font-family: 'Frank Ruhl Libre', 'Times New Roman', serif;
+  font-size: 1.1rem;
+  line-height: 1.9;
+  direction: rtl;
+  text-align: right;
+}
+
+html[lang="he"] .commentary-column,
+html[lang="he"] .book-intro,
+html[lang="he"] .nav-canto,
+html[lang="he"] .book-title-nav,
+html[lang="he"] .site-footer,
+html[lang="he"] .search-result-snippet,
+html[lang="he"] .search-result-location {
+  font-family: 'Heebo', 'Arial', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+html[lang="he"] .canto-title-text,
+html[lang="he"] .book-header-text h2,
+html[lang="he"] .intro-hero-text h1,
+html[lang="he"] .toc-card-title,
+html[lang="he"] .section-heading {
+  font-family: 'Frank Ruhl Libre', serif;
+  direction: rtl;
+  text-align: right;
+}
+
+html[lang="he"] .toc-card-eyebrow,
+html[lang="he"] .book-number,
+html[lang="he"] .hero-eyebrow,
+html[lang="he"] .key-idea-label,
+html[lang="he"] .toc-card-subtitle,
+html[lang="he"] .book-subtitle {
+  font-family: 'Heebo', 'Arial', sans-serif;
+  letter-spacing: 0;
+}
+
+/* RTL sidebar — move to right side */
+html[dir="rtl"] #sidebar {
+  left: auto;
+  right: 0;
+  border-left: none;
+  border-right: 1px solid rgba(237, 232, 208, 0.07);
+}
+
+html[dir="rtl"] #main {
+  margin-left: 0;
+  margin-right: var(--sidebar-w);
+}
+
+html[dir="rtl"] #progress-bar {
+  left: 0;
+  right: var(--sidebar-w);
+  transform-origin: right center;
+}
+
+html[dir="rtl"] .nav-book-header {
+  flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .expand-icon {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+html[dir="rtl"] .nav-cantos {
+  padding-right: 0;
+}
+
+html[dir="rtl"] .nav-canto {
+  padding-left: 16px;
+  padding-right: 28px;
+}
+
+html[dir="rtl"] .canto-header {
+  direction: rtl;
+}
+
+html[dir="rtl"] .book-header-text {
+  text-align: right;
+}
+
+html[dir="rtl"] .intro-hero-text {
+  text-align: right;
+  right: auto;
+  left: 0;
+}
+
+html[dir="rtl"] .book-intro {
+  direction: rtl;
+  text-align: right;
+}
+
+html[dir="rtl"] .search-results-header {
+  flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .search-result-item {
+  direction: rtl;
+  text-align: right;
+}
+
+html[dir="rtl"] .key-idea {
+  border-left: none;
+  border-right: 4px solid var(--gold);
+  padding-left: 12px;
+  padding-right: 16px;
+}
+
+html[dir="rtl"] .site-footer {
+  direction: rtl;
+  text-align: right;
+}
+
+html[dir="rtl"] .vishnu-images {
+  direction: rtl;
+}
+
+html[dir="rtl"] .toc-card-text {
+  text-align: right;
+  direction: rtl;
+}
+
+/* RTL search panel position */
+html[dir="rtl"] #search-results {
+  left: 0;
+  right: var(--sidebar-w);
+}
+
+/* RTL mobile sidebar (opens from right, already on right) */
+@media (max-width: 768px) {
+  html[dir="rtl"] #sidebar {
+    right: 0;
+    left: auto;
+    transform: translateX(100%);
+  }
+  html[dir="rtl"] #sidebar.open {
+    transform: translateX(0);
+  }
+  html[dir="rtl"] #main {
+    margin-right: 0;
+  }
+  html[dir="rtl"] #progress-bar {
+    left: 0;
+    right: 0;
+  }
+  html[dir="rtl"] #search-results {
+    left: 0;
+    right: 0;
+  }
+}

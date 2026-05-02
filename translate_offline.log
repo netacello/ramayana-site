@@ -1,0 +1,6 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+Loading English text...
+Traceback (most recent call last):
+  File "C:\Users\Main\OneDrive\Documents\Neta\ramayana-site\translate_offline.py", line 14, in <module>
+    from data.text import RAMAYANA_TEXT
+ModuleNotFoundError: No module named 'data.text'

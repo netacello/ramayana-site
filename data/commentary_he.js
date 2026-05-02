@@ -1,0 +1,2101 @@
+const RAMAYANA_COMMENTARY_HE={
+  "intro": {
+    "text": "The Valmiki Ramayana: A Complete Deep-Research Guide\nBook-by-Book, Canto-by-Canto\n\nSource text: The Rámáyan of Válmíki, translated into English verse by Ralph T. H. Griffith, M.A.\n(Benares: E. J. Lazarus and Co., 1870–1874. Project Gutenberg eBook #24869)\n\nSanskrit original attributed to: Maharishi Valmiki, composed approximately 5th–4th century BCE (core books), with Books I and VII likely added between 2nd century BCE and 3rd century CE.\n\n---\n\nINTRODUCTION: What Is the Ramayana?\n\nThe Ramayana (Sanskrit: Rāmāyaṇam — literally \"Rama's Journey\") is one of the two great Sanskrit epics of ancient India, alongside the Mahabharata. It consists of 24,000 verses (slokas) written in the 32-syllable anustubh meter, organized into seven books (Kandas). Its author, the sage Valmiki, is revered as the Adi-Kavi — the \"first poet\" of the Sanskrit literary tradition — because the Ramayana is considered the first great kavya (literary poem) in Sanskrit.\n\nThe Story in One Paragraph\n\nRama, the noble prince of Ayodhya and the seventh avatar of the god Vishnu, is exiled to the forest for fourteen years through the schemes of his stepmother Kaikeyi. During the exile, his wife Sita is abducted by Ravana, the ten-headed demon king of Lanka. With the help of the monkey-god Hanuman and the monkey king Sugriva, Rama crosses the ocean, wages war against Ravana, defeats him, and rescues Sita. He returns to Ayodhya and is crowned king. The story is simultaneously a human drama of duty, love, and sacrifice, and a cosmic drama of divine order triumphing over chaos.\n\nWho Was Valmiki?\n\nAccording to tradition (told in the Uttara Kanda), Valmiki was originally a highway robber named Ratnakar. The sage Narada asked him whether his family would share in the sin of his crimes. When none of them agreed, Ratnakar was transformed. He sat in deep meditation for so long that anthills (valmika) grew over his body — hence the name Valmiki, \"born of the anthill.\" He became one of the greatest sages of India.\n\nThe Ramayana's origin story is itself embedded in the text: Valmiki goes to bathe at the River Tamasa, sees a pair of Krauncha birds, and watches a hunter kill the male. Overcome by grief and rage, Valmiki involuntarily utters a verse in perfect meter — the very first sloka in Sanskrit literature. The god Brahma then visits him and commands him to compose the story of Rama in this same meter, with a promise that divine insight will allow him to know even what he has not witnessed. Valmiki meditates, composes the Ramayana, and teaches it to Lava and Kusha — who turn out to be Rama's own sons — to recite throughout the land.\n\nThe Seven Kandas at a Glance\n\n| # | Kanda | Meaning | Core Theme |\n|---|-------|---------|------------|\n| I | Bala Kanda | Book of Childhood | Birth, youth, education, marriage |\n| II | Ayodhya Kanda | Book of Ayodhya | Exile, duty, sacrifice |\n| III | Aranya Kanda | Book of the Forest | Trial, loss, abduction |\n| IV | Kishkindha Kanda | Book of Kishkindha | Alliance, strategy, the search |\n| V | Sundara Kanda | Beautiful Book | Hanuman's mission, courage, grace |\n| VI | Yuddha Kanda | Book of War | The great battle, victory, return |\n| VII | Uttara Kanda | Book of the Aftermath | Kingship, consequence, farewell |\n\nNote: Books I and VII are considered by many scholars to be later additions. The \"original\" Ramayana is generally held to be Books II through VI.\n\nThe Griffith Translation\n\nRalph T. H. Griffith (1826–1906) was a British Orientalist and Principal of Benares College. His verse translation (1870–1874) renders the Sanskrit into rhyming English couplets — readable and poetic but somewhat archaic in its diction. He uses the spelling Rámáyan and employs diacritical marks throughout. For modern accessible prose translations, the IIT Kanpur Valmiki project (valmiki.iitk.ac.in) and Desiraju Hanumanta Rao's translation (valmikiramayan.net) are highly recommended.\n\n---\n\n---",
+    "keyIdea": null
+  },
+  "books": {
+    "I": {
+      "intro": "What this book is about: The Bala Kanda (\"Book of the Child/Youth\") establishes the entire world of the Ramayana. It tells of the birth of Rama and his brothers, their education under the sages, their first battles against demons, and Rama's marriage to Sita. It also frames the entire epic as a story within a story: Valmiki learns of Rama from the sage Narada, receives divine inspiration, and teaches the poem to Lava and Kusha.\n\nScholarly note: Bala Kanda is partly considered a later addition. The first four cantos (the framing story of Valmiki, Narada, Brahma, and Lava-Kusha) are a \"meta-narrative\" about the composition of the Ramayana itself. The main story begins at Canto V.\n\n---",
+      "cantoMap": {
+        "Invocation": {
+          "text": "INVOCATION COMMENTARY\n\nThis opening verse stands apart from the epic narrative itself—it is Griffith's own invocation to Valmiki and to the power of the Ramayana. It serves multiple functions simultaneously: a prayer, a literary dedication, a philosophical statement about the nature of poetry, and a bridge between the reader and the classical text.\n\nStructure and Form\n\nThe Invocation consists of five quatrains (four-line stanzas) in Griffith's characteristic rhyming couplets. The pattern creates a musical, almost hymnic quality. This formal regularity mirrors the controlled, disciplined beauty that Griffith saw in the Sanskrit verse, even as he adapted it to English sensibilities.\n\nThe First Quatrain: The Poet as Bird\n\n\"Praise to Válmíki, bird of charming song, / Who mounts on Poesy's sublimest spray...\"\n\nValmiki is invoked as a bird—a creature naturally associated with song, transcendence, and the ability to move between earthly and celestial realms. The metaphor of mounting \"Poesy's sublimist spray\" is crucial: the poet is not a creator ex nihilo, but rather a creature who finds his perch on the highest branches of poetry itself. He is a vessel for something greater than himself.\n\nThe Second Quatrain: The Path to Bliss\n\n\"Where breathes the man can listen to the strain / That flows in music from Válmíki's tongue...\"\n\nThis stanza makes a bold philosophical claim: listening to Valmiki's poetry is not merely entertainment or instruction—it is a path to liberation (bliss, or ananda in Sanskrit). The \"strain that flows in music\" suggests that the Ramayana operates at a level beyond rational meaning; it is music that speaks directly to the soul. The promise of the \"path of bliss\" is soteriological—that engaging with Rama's story can lead to spiritual realization.\n\nThe Third Quatrain: The Ramayana as Purifying Stream\n\n\"The stream Rámáyan leaves its sacred fount / The whole wide world from sin and stain to free...\"\n\nThis quatrain deploys nested metaphors of water and geography:\n- The Ramayana is a stream (flowing, dynamic, purifying)\n- It originates from a sacred source (Valmiki, \"Prince of Hermits\")\n- It flows outward to purify the entire world\n- Rama is the ocean—the ultimate destination and source of all waters\n\nWater in Hindu philosophy is purifying, sacred, and life-giving; the Ramayana is presented as having the same universal, redemptive power. \"Parent mount\" evokes the Himalayas as the source of all rivers—Valmiki is the source-mountain from which the sacred waters flow.\n\nThe Fourth Quatrain: Praise of the Poet's Devotion\n\n\"Glory to him whose fame is ever bright! / Glory to him, Prachetas' holy son...\"\n\n\"Prachetas' holy son\" is a genealogical reference (Valmiki is said to be descended from Prachetas), but the epithet \"holy\" elevates it beyond mere lineage. \"Pure lips quaff with ever new delight / The nectar-sea of deeds by Ráma done\" suggests that Valmiki's poetic power comes from his continued meditation on Rama. His lips are pure (fit to speak truth), and he drinks endlessly from the \"nectar-sea\" of Rama's deeds. This is not a one-time composition; it is an ongoing state of devotional absorption. The verb \"quaff\" suggests both joy and sustenance.\n\nThe Fifth Quatrain: Final Invocation\n\n\"Hail, arch-ascetic, pious, good, and kind! / Hail, Saint Válmíki, lord of every lore!...\"\n\nThe final stanza accumulates titles and epithets in a crescendo of praise: arch-ascetic (supreme in renunciation), pious, good, and kind (virtues of character), lord of every lore (master of all knowledge), holy Hermit with calm and pure mind (inner peace and sanctity), and First of Bards (Adi-Kavi—echoing the Sanskrit tradition). The repetition of \"Hail\" creates a mantra-like effect, as if the reader is joining in a collective invocation.\n\nGriffith's Translation Choice\n\nIt is worth noting that this Invocation is entirely Griffith's addition. The Sanskrit Ramayana begins with the dialogue between Valmiki and Narada. Griffith chose to insert this English invocation, suggesting that he saw a need to honor the poet-tradition itself and to prepare the English reader for the spiritual and philosophical weight of what follows. In doing so, Griffith aligns himself with a long tradition that attempted to convey the reverence that Hindu audiences held for their epic texts and their authors.\n\nThe Invocation establishes that the Ramayana is not merely a narrative entertainment, but a sacred text whose power lies in its origins in the poet's spiritual vision and its capacity to transform the reader through the redemptive power of Rama's story.",
+          "keyIdea": "The Ramayana is a sacred text whose redemptive power lies in the poet's spiritual vision and its capacity to transform the reader through Rama's story."
+        },
+        "I": {
+          "text": "This is the opening of the entire epic. Valmiki, sitting in his hermitage, asks the divine sage Narada a single piercing question: \"Is there any man alive today who is truly virtuous — heroic, truthful, grateful, firm in his vows, and kind to every creature?\" Narada smiles and says: yes, and his name is Rama. Narada then delivers a rapid summary of the entire Ramayana — the whole 24,000-verse epic compressed into a few paragraphs. This is deliberate: the reader is told the ending before the beginning, because the Ramayana is not a thriller about plot — it is a meditation on how a perfect man behaves, moment to moment.\n\n\"From old Ikshváku's line he came, / Known to the world by Ráma's name: / With soul subdued, a chief of might, / In Scripture versed, in glory bright...\"",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "II": {
+          "text": "Valmiki walks to the River Tamasa to bathe. He sees two Krauncha birds (a species of curlew or heron, symbols of love and fidelity). A hunter shoots the male. The female cries in grief. Valmiki is so overwhelmed by compassion that words burst from his mouth in perfect verse — this is called the first sloka, the founding moment of Sanskrit poetry. The god Brahma then appears and explains that Valmiki was divinely chosen to compose Rama's story in this meter. He grants Valmiki the ability to see all events — past, present, and future — as if directly witnessed.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "III": {
+          "text": "Valmiki composes the Ramayana and gives a brief synopsis — the seven books in miniature, a second summary. This was a standard device in Sanskrit literature: map the territory before the journey.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "IV": {
+          "text": "Valmiki teaches the Ramayana to Lava and Kusha — the twin sons of Rama (who at this point neither they nor Valmiki knows are Rama's sons). They memorize the 24,000 verses perfectly and begin to recite them throughout the land. Eventually they recite before Rama's own court — and the king weeps without knowing why. This is the moment the \"frame\" of the story closes: the poem returns to its source.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "V": {
+          "text": "The city of Ayodhya is introduced in a passage of remarkable grandeur. It sits on the River Sarayu, twelve leagues long and three leagues wide, laid out like a chessboard with wide streets, filled with merchants, warriors, scholars, and craftsmen. It is described as a city so perfect it rivals the heaven of Indra.\n\n\"Ayodhya, the famous town, the seat of Iksvaku's line — twelve yojanas in length and three in breadth — built by Manu himself...\"",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "VI": {
+          "text": "King Dasharatha is introduced. He has ruled for 60,000 years (mythological time), is surrounded by wise ministers, commands absolute loyalty, and is described as equal in glory to the gods Indra and Kubera. Yet there is one sorrow: despite three wives — Kaushalya, Kaikeyi, and Sumitra — he has no son, and fears his royal line will die with him.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "VII": {
+          "text": "The eight ministers of Dasharatha are named and described: each is an ideal of their function — truthful, incorruptible, skilled in law, skilled in war. This canto establishes that Ayodhya's excellence is not just the king's — it is systemic, embedded in its institutions.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "VIII": {
+          "text": "Sumantra, Dasharatha's charioteer and most trusted counselor, recalls an ancient prophecy: Dasharatha will have sons through a special fire sacrifice, and through those sons the world will be saved. He tells the king to summon the sage Rishyashringa to perform the ceremony.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "IX": {
+          "text": "Rishyashringa (also Rishyashringi) is a sage of extraordinary purity — raised in total isolation in the forest, he has never seen a woman. His power of chastity is so great that when he is present, rain falls and crops grow. Dasharatha needs him to perform the Putrakameshti Yajna (the son-producing fire sacrifice). The challenge: how to bring a forest ascetic who has never left the woods to Ayodhya? King Romapada of Anga lures him out by sending beautiful women, particularly a courtesan named Shanta (who in some versions becomes Rishyashringa's wife). This digression is famous for its treatment of desire, innocence, and the world.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "X": {
+          "text": "Rishyashringa (also Rishyashringi) is a sage of extraordinary purity — raised in total isolation in the forest, he has never seen a woman. His power of chastity is so great that when he is present, rain falls and crops grow. Dasharatha needs him to perform the Putrakameshti Yajna (the son-producing fire sacrifice). The challenge: how to bring a forest ascetic who has never left the woods to Ayodhya? King Romapada of Anga lures him out by sending beautiful women, particularly a courtesan named Shanta (who in some versions becomes Rishyashringa's wife). This digression is famous for its treatment of desire, innocence, and the world.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XI": {
+          "text": "Dasharatha performs the great Putrakameshti fire sacrifice under Rishyashringa's direction. The fire produces a divine being — the Yajna Purusha — carrying a golden vessel of sacred payasa (a sweet rice pudding charged with divine power). Dasharatha distributes the payasa among his three queens: half to Kaushalya, a quarter to Kaikeyi, and the remaining quarter divided between the two halves given to Sumitra.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XII": {
+          "text": "Dasharatha performs the great Putrakameshti fire sacrifice under Rishyashringa's direction. The fire produces a divine being — the Yajna Purusha — carrying a golden vessel of sacred payasa (a sweet rice pudding charged with divine power). Dasharatha distributes the payasa among his three queens: half to Kaushalya, a quarter to Kaikeyi, and the remaining quarter divided between the two halves given to Sumitra.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XIII": {
+          "text": "Dasharatha performs the great Putrakameshti fire sacrifice under Rishyashringa's direction. The fire produces a divine being — the Yajna Purusha — carrying a golden vessel of sacred payasa (a sweet rice pudding charged with divine power). Dasharatha distributes the payasa among his three queens: half to Kaushalya, a quarter to Kaikeyi, and the remaining quarter divided between the two halves given to Sumitra.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XIV": {
+          "text": "Simultaneously in heaven, the gods are in crisis: the demon-king Ravana has been oppressing all creation, and because of a boon he received from Brahma, neither god, demon, nor celestial being can kill him. He forgot to include \"humans\" in his immunity boon — believing humans too weak to threaten him. The gods petition Vishnu. Vishnu agrees to be born as a human: he will incarnate as Rama.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XV": {
+          "text": "Vishnu divides himself into four portions, born from the payasa: Rama (half of Vishnu) born of Kaushalya, Bharata (a quarter) born of Kaikeyi, and Lakshmana and Shatrughna (each an eighth) born of Sumitra.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XIX": {
+          "text": "The four princes are born. The entire city of Ayodhya erupts in joy. Valmiki gives a magnificent description of celebration — music, dance, gifts to the poor, the king's happiness.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XX": {
+          "text": "Vishwamitra, one of the most powerful sages in the entire tradition (a warrior-king who became a brahmin sage through extreme austerities), arrives at Dasharatha's court. He demands that the king send his young sons — particularly Rama, who is not yet sixteen — to protect his sacrificial rites from the demons Maricha and Subahu.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXI": {
+          "text": "Vishwamitra argues his case. Dasharatha is horrified — how can he send a child against demons? He offers his entire army instead. Vishwamitra is unmoved: he wants Rama. The king nearly weeps.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXII": {
+          "text": "The royal sage Vasishtha (Dasharatha's personal guru) counsels the king to let Rama go: Vishwamitra knows what he is asking for, and Rama is more capable than the king understands. Dasharatha relents.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXIII": {
+          "text": "The royal sage Vasishtha (Dasharatha's personal guru) counsels the king to let Rama go: Vishwamitra knows what he is asking for, and Rama is more capable than the king understands. Dasharatha relents.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXIV": {
+          "text": "Vishwamitra gives Rama two divine spells: Bala and Atibala (\"Strength\" and \"Great Strength\"). These are not weapons — they are states of yogic power that ensure Rama never needs sleep, never suffers hunger or exhaustion, and remains radiant in battle. This is Vishwamitra's first gift to his divine pupil.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXV": {
+          "text": "Rama and Lakshmana travel with Vishwamitra through the Sone River valley. The sage tells them the history of every place they pass — this is a characteristic technique of the Ramayana, using geography as narrative, embedding myth into landscape.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXVI": {
+          "text": "They enter the Tataka forest, a once-beautiful land now devastated by the demoness Tadaka (Tadaka in modern spelling). She was once a beautiful yaksha-woman but was cursed into a monstrous form after attacking the sage Agastya. She now haunts this region. Vishwamitra tells Rama to kill her. Rama hesitates — she is a woman. Vishwamitra invokes dharma: the king's duty is to protect his people, even from women who have become monstrous. Rama kills her. The forest is immediately restored to beauty.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXVII": {
+          "text": "They enter the Tataka forest, a once-beautiful land now devastated by the demoness Tadaka (Tadaka in modern spelling). She was once a beautiful yaksha-woman but was cursed into a monstrous form after attacking the sage Agastya. She now haunts this region. Vishwamitra tells Rama to kill her. Rama hesitates — she is a woman. Vishwamitra invokes dharma: the king's duty is to protect his people, even from women who have become monstrous. Rama kills her. The forest is immediately restored to beauty.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXVIII": {
+          "text": "They enter the Tataka forest, a once-beautiful land now devastated by the demoness Tadaka (Tadaka in modern spelling). She was once a beautiful yaksha-woman but was cursed into a monstrous form after attacking the sage Agastya. She now haunts this region. Vishwamitra tells Rama to kill her. Rama hesitates — she is a woman. Vishwamitra invokes dharma: the king's duty is to protect his people, even from women who have become monstrous. Rama kills her. The forest is immediately restored to beauty.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXIX": {
+          "text": "Vishwamitra rewards Rama with an armory of divine weapons — dozens of celestial arms, each with its own deity and power. Then he gives him the means to recall and revoke these weapons. This is a curriculum: Vishwamitra is not just protecting his sacrifice, he is completing Rama's education as a warrior.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXX": {
+          "text": "Vishwamitra rewards Rama with an armory of divine weapons — dozens of celestial arms, each with its own deity and power. Then he gives him the means to recall and revoke these weapons. This is a curriculum: Vishwamitra is not just protecting his sacrifice, he is completing Rama's education as a warrior.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXI": {
+          "text": "They arrive at Vishwamitra's hermitage at Siddhashrama (the \"hermitage of perfection\"). The great sacrifice begins. Maricha and Subahu attack on the sixth night. Rama uses a weapon given by Agastya to blast Maricha away (not kill him — Maricha will reappear, fatally, in Book III). He kills Subahu and disperses the demonic army. The sacrifice is complete.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXII": {
+          "text": "They arrive at Vishwamitra's hermitage at Siddhashrama (the \"hermitage of perfection\"). The great sacrifice begins. Maricha and Subahu attack on the sixth night. Rama uses a weapon given by Agastya to blast Maricha away (not kill him — Maricha will reappear, fatally, in Book III). He kills Subahu and disperses the demonic army. The sacrifice is complete.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXIII": {
+          "text": "The story of Vishwamitra himself: how a warrior-king, King Vishvaratha, through sheer force of will transformed himself into a brahmin sage of the highest order — a process that involved repeated battles with the sage Vasishtha, centuries of austerities, and overcoming temptations from the apsara Menaka (who seduced him, giving birth to Shakuntala — the subject of Kalidasa's famous play). Vishwamitra's story is one of the great narratives of human striving in Indian literature.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXIV": {
+          "text": "The story of Vishwamitra himself: how a warrior-king, King Vishvaratha, through sheer force of will transformed himself into a brahmin sage of the highest order — a process that involved repeated battles with the sage Vasishtha, centuries of austerities, and overcoming temptations from the apsara Menaka (who seduced him, giving birth to Shakuntala — the subject of Kalidasa's famous play). Vishwamitra's story is one of the great narratives of human striving in Indian literature.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXV": {
+          "text": "The story of Vishwamitra himself: how a warrior-king, King Vishvaratha, through sheer force of will transformed himself into a brahmin sage of the highest order — a process that involved repeated battles with the sage Vasishtha, centuries of austerities, and overcoming temptations from the apsara Menaka (who seduced him, giving birth to Shakuntala — the subject of Kalidasa's famous play). Vishwamitra's story is one of the great narratives of human striving in Indian literature.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXVI": {
+          "text": "The origin of the Ganges River (Ganga): she was originally a celestial river in heaven, daughter of the Himalayas. The gods needed her to descend to earth to purify and restore the sixty thousand sons of King Sagara (see below). She agreed, but her force would have shattered the earth — so she had to be received by a being capable of absorbing her power. This leads to the story of Shiva, who received Ganga in his matted hair and released her gently. The Ganges on earth is thus always understood to flow from the head of Shiva.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXIX": {
+          "text": "King Sagara (ancestor of Rama) performed the Ashvamedha (horse sacrifice). The sacrificial horse was stolen by the god Indra out of jealousy and hidden near the meditating sage Kapila. Sagara's sixty thousand sons dug through the earth to find it (literally cleaving the earth and creating the Bay of Bengal, according to the text). When they found the horse near Kapila, they accused him of theft. Kapila opened his eyes — and the sixty thousand were incinerated by his glance. Their souls could not rest. Generations later, King Bhagiratha performed such extreme austerities that he convinced Brahma, then Shiva, then finally Ganga herself to descend to earth, flowing over the ashes of the sixty thousand and purifying them to heaven. This is why the Ganges is sacred: it is the path of liberation for these ancestors, and by extension for all the dead.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XL": {
+          "text": "King Sagara (ancestor of Rama) performed the Ashvamedha (horse sacrifice). The sacrificial horse was stolen by the god Indra out of jealousy and hidden near the meditating sage Kapila. Sagara's sixty thousand sons dug through the earth to find it (literally cleaving the earth and creating the Bay of Bengal, according to the text). When they found the horse near Kapila, they accused him of theft. Kapila opened his eyes — and the sixty thousand were incinerated by his glance. Their souls could not rest. Generations later, King Bhagiratha performed such extreme austerities that he convinced Brahma, then Shiva, then finally Ganga herself to descend to earth, flowing over the ashes of the sixty thousand and purifying them to heaven. This is why the Ganges is sacred: it is the path of liberation for these ancestors, and by extension for all the dead.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLI": {
+          "text": "King Sagara (ancestor of Rama) performed the Ashvamedha (horse sacrifice). The sacrificial horse was stolen by the god Indra out of jealousy and hidden near the meditating sage Kapila. Sagara's sixty thousand sons dug through the earth to find it (literally cleaving the earth and creating the Bay of Bengal, according to the text). When they found the horse near Kapila, they accused him of theft. Kapila opened his eyes — and the sixty thousand were incinerated by his glance. Their souls could not rest. Generations later, King Bhagiratha performed such extreme austerities that he convinced Brahma, then Shiva, then finally Ganga herself to descend to earth, flowing over the ashes of the sixty thousand and purifying them to heaven. This is why the Ganges is sacred: it is the path of liberation for these ancestors, and by extension for all the dead.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLII": {
+          "text": "King Sagara (ancestor of Rama) performed the Ashvamedha (horse sacrifice). The sacrificial horse was stolen by the god Indra out of jealousy and hidden near the meditating sage Kapila. Sagara's sixty thousand sons dug through the earth to find it (literally cleaving the earth and creating the Bay of Bengal, according to the text). When they found the horse near Kapila, they accused him of theft. Kapila opened his eyes — and the sixty thousand were incinerated by his glance. Their souls could not rest. Generations later, King Bhagiratha performed such extreme austerities that he convinced Brahma, then Shiva, then finally Ganga herself to descend to earth, flowing over the ashes of the sixty thousand and purifying them to heaven. This is why the Ganges is sacred: it is the path of liberation for these ancestors, and by extension for all the dead.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLIII": {
+          "text": "King Sagara (ancestor of Rama) performed the Ashvamedha (horse sacrifice). The sacrificial horse was stolen by the god Indra out of jealousy and hidden near the meditating sage Kapila. Sagara's sixty thousand sons dug through the earth to find it (literally cleaving the earth and creating the Bay of Bengal, according to the text). When they found the horse near Kapila, they accused him of theft. Kapila opened his eyes — and the sixty thousand were incinerated by his glance. Their souls could not rest. Generations later, King Bhagiratha performed such extreme austerities that he convinced Brahma, then Shiva, then finally Ganga herself to descend to earth, flowing over the ashes of the sixty thousand and purifying them to heaven. This is why the Ganges is sacred: it is the path of liberation for these ancestors, and by extension for all the dead.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLIV": {
+          "text": "King Sagara (ancestor of Rama) performed the Ashvamedha (horse sacrifice). The sacrificial horse was stolen by the god Indra out of jealousy and hidden near the meditating sage Kapila. Sagara's sixty thousand sons dug through the earth to find it (literally cleaving the earth and creating the Bay of Bengal, according to the text). When they found the horse near Kapila, they accused him of theft. Kapila opened his eyes — and the sixty thousand were incinerated by his glance. Their souls could not rest. Generations later, King Bhagiratha performed such extreme austerities that he convinced Brahma, then Shiva, then finally Ganga herself to descend to earth, flowing over the ashes of the sixty thousand and purifying them to heaven. This is why the Ganges is sacred: it is the path of liberation for these ancestors, and by extension for all the dead.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLV": {
+          "text": "More cosmological backstory: the churning of the ocean (Samudra Manthan) by gods and demons to produce the nectar of immortality (amrita), and the story of the goddess Diti's attempt to produce a son who could defeat Indra. Dense mythological material, important for understanding the cosmological backdrop of the epic.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLVI": {
+          "text": "More cosmological backstory: the churning of the ocean (Samudra Manthan) by gods and demons to produce the nectar of immortality (amrita), and the story of the goddess Diti's attempt to produce a son who could defeat Indra. Dense mythological material, important for understanding the cosmological backdrop of the epic.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLVIII": {
+          "text": "As they pass through the hermitage of the sage Gautama, Vishwamitra tells Rama the story of Ahalya — the sage's beautiful wife who was seduced by Indra (who disguised himself as Gautama). Gautama discovered the deception, cursed Ahalya to become a stone until touched by Rama's foot, and cursed Indra with a thousand marks of shame. Rama walks through the hermitage, touches the stone with his foot, and Ahalya is restored — \"freed from a spell that had held her for ages.\" This is the first miracle attributed to Rama's presence.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLIX": {
+          "text": "As they pass through the hermitage of the sage Gautama, Vishwamitra tells Rama the story of Ahalya — the sage's beautiful wife who was seduced by Indra (who disguised himself as Gautama). Gautama discovered the deception, cursed Ahalya to become a stone until touched by Rama's foot, and cursed Indra with a thousand marks of shame. Rama walks through the hermitage, touches the stone with his foot, and Ahalya is restored — \"freed from a spell that had held her for ages.\" This is the first miracle attributed to Rama's presence.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "L": {
+          "text": "They arrive at Mithila, the kingdom of King Janaka (Janak). Janaka is described as both a great king and a great philosopher-king — one of the Rajarshis, \"royal sages.\" He is the father of Sita, and he explains to Vishwamitra the occasion for their visit: the famous Swayamvara (bride-choice ceremony).",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LI": {
+          "text": "More backstory on Vishwamitra's ancient enmity with Vasishtha — the wars between the warrior-king-turned-sage and the great brahmin. These cantos explore the fundamental tension in Hindu thought between Kshatriya (warrior) power and Brahmin (priestly/knowledge) power.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LII": {
+          "text": "More backstory on Vishwamitra's ancient enmity with Vasishtha — the wars between the warrior-king-turned-sage and the great brahmin. These cantos explore the fundamental tension in Hindu thought between Kshatriya (warrior) power and Brahmin (priestly/knowledge) power.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LIII": {
+          "text": "More backstory on Vishwamitra's ancient enmity with Vasishtha — the wars between the warrior-king-turned-sage and the great brahmin. These cantos explore the fundamental tension in Hindu thought between Kshatriya (warrior) power and Brahmin (priestly/knowledge) power.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LIV": {
+          "text": "More backstory on Vishwamitra's ancient enmity with Vasishtha — the wars between the warrior-king-turned-sage and the great brahmin. These cantos explore the fundamental tension in Hindu thought between Kshatriya (warrior) power and Brahmin (priestly/knowledge) power.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LV": {
+          "text": "More backstory on Vishwamitra's ancient enmity with Vasishtha — the wars between the warrior-king-turned-sage and the great brahmin. These cantos explore the fundamental tension in Hindu thought between Kshatriya (warrior) power and Brahmin (priestly/knowledge) power.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LVI": {
+          "text": "More backstory on Vishwamitra's ancient enmity with Vasishtha — the wars between the warrior-king-turned-sage and the great brahmin. These cantos explore the fundamental tension in Hindu thought between Kshatriya (warrior) power and Brahmin (priestly/knowledge) power.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LVII": {
+          "text": "The extraordinary story of Trisanku: a king who wished to enter heaven in his physical body — normally impossible. Vishwamitra, through sheer force of will and sacrifice, began creating an alternate universe with a duplicate heaven and a new Indra to place Trisanku in. The gods, alarmed, negotiated a compromise: Trisanku hangs upside-down in a special heaven created just for him, for all eternity. This story demonstrates the terrifying power of a true ascetic — Vishwamitra could, if he chose, rewrite cosmic law.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LVIII": {
+          "text": "The extraordinary story of Trisanku: a king who wished to enter heaven in his physical body — normally impossible. Vishwamitra, through sheer force of will and sacrifice, began creating an alternate universe with a duplicate heaven and a new Indra to place Trisanku in. The gods, alarmed, negotiated a compromise: Trisanku hangs upside-down in a special heaven created just for him, for all eternity. This story demonstrates the terrifying power of a true ascetic — Vishwamitra could, if he chose, rewrite cosmic law.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LIX": {
+          "text": "The extraordinary story of Trisanku: a king who wished to enter heaven in his physical body — normally impossible. Vishwamitra, through sheer force of will and sacrifice, began creating an alternate universe with a duplicate heaven and a new Indra to place Trisanku in. The gods, alarmed, negotiated a compromise: Trisanku hangs upside-down in a special heaven created just for him, for all eternity. This story demonstrates the terrifying power of a true ascetic — Vishwamitra could, if he chose, rewrite cosmic law.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LX": {
+          "text": "The extraordinary story of Trisanku: a king who wished to enter heaven in his physical body — normally impossible. Vishwamitra, through sheer force of will and sacrifice, began creating an alternate universe with a duplicate heaven and a new Indra to place Trisanku in. The gods, alarmed, negotiated a compromise: Trisanku hangs upside-down in a special heaven created just for him, for all eternity. This story demonstrates the terrifying power of a true ascetic — Vishwamitra could, if he chose, rewrite cosmic law.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXI": {
+          "text": "The extraordinary story of Trisanku: a king who wished to enter heaven in his physical body — normally impossible. Vishwamitra, through sheer force of will and sacrifice, began creating an alternate universe with a duplicate heaven and a new Indra to place Trisanku in. The gods, alarmed, negotiated a compromise: Trisanku hangs upside-down in a special heaven created just for him, for all eternity. This story demonstrates the terrifying power of a true ascetic — Vishwamitra could, if he chose, rewrite cosmic law.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXII": {
+          "text": "The extraordinary story of Trisanku: a king who wished to enter heaven in his physical body — normally impossible. Vishwamitra, through sheer force of will and sacrifice, began creating an alternate universe with a duplicate heaven and a new Indra to place Trisanku in. The gods, alarmed, negotiated a compromise: Trisanku hangs upside-down in a special heaven created just for him, for all eternity. This story demonstrates the terrifying power of a true ascetic — Vishwamitra could, if he chose, rewrite cosmic law.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXIII": {
+          "text": "The extraordinary story of Trisanku: a king who wished to enter heaven in his physical body — normally impossible. Vishwamitra, through sheer force of will and sacrifice, began creating an alternate universe with a duplicate heaven and a new Indra to place Trisanku in. The gods, alarmed, negotiated a compromise: Trisanku hangs upside-down in a special heaven created just for him, for all eternity. This story demonstrates the terrifying power of a true ascetic — Vishwamitra could, if he chose, rewrite cosmic law.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXIV": {
+          "text": "The extraordinary story of Trisanku: a king who wished to enter heaven in his physical body — normally impossible. Vishwamitra, through sheer force of will and sacrifice, began creating an alternate universe with a duplicate heaven and a new Indra to place Trisanku in. The gods, alarmed, negotiated a compromise: Trisanku hangs upside-down in a special heaven created just for him, for all eternity. This story demonstrates the terrifying power of a true ascetic — Vishwamitra could, if he chose, rewrite cosmic law.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXV": {
+          "text": "The extraordinary story of Trisanku: a king who wished to enter heaven in his physical body — normally impossible. Vishwamitra, through sheer force of will and sacrifice, began creating an alternate universe with a duplicate heaven and a new Indra to place Trisanku in. The gods, alarmed, negotiated a compromise: Trisanku hangs upside-down in a special heaven created just for him, for all eternity. This story demonstrates the terrifying power of a true ascetic — Vishwamitra could, if he chose, rewrite cosmic law.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXVI": {
+          "text": "Janaka explains the origin of the great bow: it belonged to Shiva himself, was left in trust with Janaka's ancestor, and has been in Mithila ever since. It is so heavy that thousands of men are needed just to move it on its cart. Janaka's condition for Sita's hand: any man who can string it wins her. Hundreds of kings and princes have tried and failed.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXVII": {
+          "text": "Rama steps forward. He lifts the bow effortlessly with one hand, strings it — and in the act of drawing it, it breaks in two with a sound like thunder that shakes the earth and makes all present fall down except Vishwamitra, Janaka, Rama, and Lakshmana. The marriage to Sita is settled.\n\n\"The mighty bow he grasped and bent, / String, bend, and bow together rent / — the earth convulsed, the mountains shook, / The Gods and Sages felt the stroke.\"",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXVIII": {
+          "text": "Dasharatha and the royal court of Ayodhya are summoned to Mithila. The four princes marry: Rama to Sita, Lakshmana to Urmila (Sita's sister), Bharata to Mandavi, and Shatrughna to Shrutakirti — all daughters or nieces of Janaka's dynasty. The wedding ceremonies are described with great beauty.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXIX": {
+          "text": "Dasharatha and the royal court of Ayodhya are summoned to Mithila. The four princes marry: Rama to Sita, Lakshmana to Urmila (Sita's sister), Bharata to Mandavi, and Shatrughna to Shrutakirti — all daughters or nieces of Janaka's dynasty. The wedding ceremonies are described with great beauty.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXX": {
+          "text": "Dasharatha and the royal court of Ayodhya are summoned to Mithila. The four princes marry: Rama to Sita, Lakshmana to Urmila (Sita's sister), Bharata to Mandavi, and Shatrughna to Shrutakirti — all daughters or nieces of Janaka's dynasty. The wedding ceremonies are described with great beauty.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXXI": {
+          "text": "Dasharatha and the royal court of Ayodhya are summoned to Mithila. The four princes marry: Rama to Sita, Lakshmana to Urmila (Sita's sister), Bharata to Mandavi, and Shatrughna to Shrutakirti — all daughters or nieces of Janaka's dynasty. The wedding ceremonies are described with great beauty.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXXII": {
+          "text": "Dasharatha and the royal court of Ayodhya are summoned to Mithila. The four princes marry: Rama to Sita, Lakshmana to Urmila (Sita's sister), Bharata to Mandavi, and Shatrughna to Shrutakirti — all daughters or nieces of Janaka's dynasty. The wedding ceremonies are described with great beauty.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXXIII": {
+          "text": "Dasharatha and the royal court of Ayodhya are summoned to Mithila. The four princes marry: Rama to Sita, Lakshmana to Urmila (Sita's sister), Bharata to Mandavi, and Shatrughna to Shrutakirti — all daughters or nieces of Janaka's dynasty. The wedding ceremonies are described with great beauty.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXXIV": {
+          "text": "On the return journey, Parashurama (\"Rama with the Axe\") — a fearsome avatar of Vishnu who once exterminated the Kshatriya class twenty-one times — confronts Rama. He is furious that Shiva's bow was broken. He challenges Rama with Vishnu's own bow. Rama accepts it calmly, strings it instantly, and aims it at Parashurama. Parashurama recognizes that Rama is the superior avatar of Vishnu and submits, departing for the mountains.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXXV": {
+          "text": "On the return journey, Parashurama (\"Rama with the Axe\") — a fearsome avatar of Vishnu who once exterminated the Kshatriya class twenty-one times — confronts Rama. He is furious that Shiva's bow was broken. He challenges Rama with Vishnu's own bow. Rama accepts it calmly, strings it instantly, and aims it at Parashurama. Parashurama recognizes that Rama is the superior avatar of Vishnu and submits, departing for the mountains.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXXVI": {
+          "text": "On the return journey, Parashurama (\"Rama with the Axe\") — a fearsome avatar of Vishnu who once exterminated the Kshatriya class twenty-one times — confronts Rama. He is furious that Shiva's bow was broken. He challenges Rama with Vishnu's own bow. Rama accepts it calmly, strings it instantly, and aims it at Parashurama. Parashurama recognizes that Rama is the superior avatar of Vishnu and submits, departing for the mountains.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXXVII": {
+          "text": "Bharata and Shatrughna have been away visiting their maternal grandfather during all these events. Book I ends with them departing on their journey home — a structural setup for the crisis that will open Book II.\n\n---\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        }
+      }
+    },
+    "II": {
+      "intro": "What this book is about: The Ayodhya Kanda is arguably the most emotionally devastating of all the books. It begins with the entire kingdom on the verge of celebrating Rama's coronation as crown prince — and then, through a sequence of decisions each made from genuine if flawed love, the entire structure collapses. Rama is exiled for fourteen years. His father dies of grief. His brother refuses to be king. And Rama accepts it all without a single word of complaint.\n\nCore theme: Dharma — righteous duty — when it conflicts with human desire, love, and self-interest. Rama's choice to honor his father's word over his own happiness, and Kaikeyi's choice to honor her greed over her son's future, stand in sharp contrast.\n\n---",
+      "cantoMap": {
+        "I": {
+          "text": "Rama is to be crowned co-regent tomorrow. Dasharatha, feeling old, wants to secure the succession while he still can. The entire book opens in a mood of joy and anticipation. Rama's character is described at length — his deep learning, his physical beauty, his humility, his impossibility of being moved to anger or meanness. This is the high point of the arc before everything descends.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "II": {
+          "text": "The citizens of Ayodhya, gathering to discuss the coronation, explain in their own words why Rama should be king: he is patient, generous, never speaks harshly, cares for all equally, is as refreshing as rain in summer. Their collective voice establishes the people's love for Rama as a political and moral reality.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "III": {
+          "text": "Dasharatha calls Rama privately and gives him fatherly instructions. He senses something — an instinct that this happiness may be disrupted — and urges Rama to be crowned quickly, tonight if possible, while Bharata is away. Rama agrees. The city is decorated. The ceremony is set for dawn.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "IV": {
+          "text": "Dasharatha calls Rama privately and gives him fatherly instructions. He senses something — an instinct that this happiness may be disrupted — and urges Rama to be crowned quickly, tonight if possible, while Bharata is away. Rama agrees. The city is decorated. The ceremony is set for dawn.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "V": {
+          "text": "Dasharatha calls Rama privately and gives him fatherly instructions. He senses something — an instinct that this happiness may be disrupted — and urges Rama to be crowned quickly, tonight if possible, while Bharata is away. Rama agrees. The city is decorated. The ceremony is set for dawn.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "VI": {
+          "text": "Dasharatha calls Rama privately and gives him fatherly instructions. He senses something — an instinct that this happiness may be disrupted — and urges Rama to be crowned quickly, tonight if possible, while Bharata is away. Rama agrees. The city is decorated. The ceremony is set for dawn.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "VII": {
+          "text": "This is the pivot of the entire epic. Manthara, the hunchbacked serving-maid of Queen Kaikeyi, sees the city's celebrations from the palace roof. She is furious: if Rama becomes king, Kaikeyi — and Manthara herself — will lose power to Kaushalya's faction. She descends to poison Kaikeyi's mind.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "VIII": {
+          "text": "Manthara reminds Kaikeyi that years ago, when Dasharatha was gravely wounded in battle, it was Kaikeyi who saved his life by driving his chariot through the night. In gratitude, Dasharatha promised her two boons — to be named later. Manthara urges her to use them now: first boon, send Rama to the forest for fourteen years; second boon, crown Bharata instead.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "IX": {
+          "text": "Kaikeyi is initially resistant — she loves Rama — but Manthara works on her fear and pride through the night. By morning, Kaikeyi has removed all her jewelry, put on her least ornate clothes, and is lying on the floor of the \"house of sorrow\" (the kopa-bhavan, a room reserved for royal protest). When Dasharatha comes looking for her and asks what is wrong, she names her two boons. The king is thunderstruck. He begs, argues, weeps, prostrates himself — even offers her anything else. Kaikeyi is immovable.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "X": {
+          "text": "Kaikeyi is initially resistant — she loves Rama — but Manthara works on her fear and pride through the night. By morning, Kaikeyi has removed all her jewelry, put on her least ornate clothes, and is lying on the floor of the \"house of sorrow\" (the kopa-bhavan, a room reserved for royal protest). When Dasharatha comes looking for her and asks what is wrong, she names her two boons. The king is thunderstruck. He begs, argues, weeps, prostrates himself — even offers her anything else. Kaikeyi is immovable.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XI": {
+          "text": "Kaikeyi is initially resistant — she loves Rama — but Manthara works on her fear and pride through the night. By morning, Kaikeyi has removed all her jewelry, put on her least ornate clothes, and is lying on the floor of the \"house of sorrow\" (the kopa-bhavan, a room reserved for royal protest). When Dasharatha comes looking for her and asks what is wrong, she names her two boons. The king is thunderstruck. He begs, argues, weeps, prostrates himself — even offers her anything else. Kaikeyi is immovable.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XII": {
+          "text": "The king collapses in anguish. Night passes. He is unable to speak. The queen holds him to her demand. He cannot honor the boons without destroying his own happiness; he cannot refuse them without destroying his own honor. This is dharma's most painful edge: a promise is a promise, even when keeping it destroys you.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XIII": {
+          "text": "The king collapses in anguish. Night passes. He is unable to speak. The queen holds him to her demand. He cannot honor the boons without destroying his own happiness; he cannot refuse them without destroying his own honor. This is dharma's most painful edge: a promise is a promise, even when keeping it destroys you.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XIV": {
+          "text": "The next morning, the ceremony for Rama's coronation is already in progress. Messengers summon him to his father's chamber. He arrives alone (significantly — Sita and Lakshmana are not present for this). Kaikeyi delivers the verdict with almost cold matter-of-factness: you must go to the forest for fourteen years, dressed as an ascetic, wearing bark and matted hair. Bharata will be crowned in your place.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XV": {
+          "text": "The next morning, the ceremony for Rama's coronation is already in progress. Messengers summon him to his father's chamber. He arrives alone (significantly — Sita and Lakshmana are not present for this). Kaikeyi delivers the verdict with almost cold matter-of-factness: you must go to the forest for fourteen years, dressed as an ascetic, wearing bark and matted hair. Bharata will be crowned in your place.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XVI": {
+          "text": "The next morning, the ceremony for Rama's coronation is already in progress. Messengers summon him to his father's chamber. He arrives alone (significantly — Sita and Lakshmana are not present for this). Kaikeyi delivers the verdict with almost cold matter-of-factness: you must go to the forest for fourteen years, dressed as an ascetic, wearing bark and matted hair. Bharata will be crowned in your place.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XVIII": {
+          "text": "Rama listens in complete silence. Then he says: \"I will go.\" No anger. No bargaining. No grief. He asks only one thing — that Dasharatha personally explain this to his mother Kaushalya.\n\n\"The son obeyed his father's word: / Firm in his faith he took the cord / Of bark...\"",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XIX": {
+          "text": "The emotional aftermath spreads outward like rings in water. Kaushalya collapses in grief (Canto XX). Lakshmana, Rama's devoted brother, erupts in fury — he wants to overthrow Dasharatha and Kaikeyi by force (Canto XXIII). Rama calms him: no act of violence for his sake, ever. Sita insists on accompanying Rama into the forest — her famous speech (Canto XXIX) is one of the most celebrated passages in the epic.\n\nSita's Speech (Canto XXVII–XXIX):\nRama tries to dissuade Sita from coming: the forest is dangerous, he will be poor, there will be no comfort. Sita's reply is the defining statement of her character: \"A wife's only refuge is her husband. Where you go, I go. Your forest is my Ayodhya. Your exile is my coronation.\" She refuses to stay behind. Lakshmana too refuses to remain. The three will go together.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XX": {
+          "text": "The emotional aftermath spreads outward like rings in water. Kaushalya collapses in grief (Canto XX). Lakshmana, Rama's devoted brother, erupts in fury — he wants to overthrow Dasharatha and Kaikeyi by force (Canto XXIII). Rama calms him: no act of violence for his sake, ever. Sita insists on accompanying Rama into the forest — her famous speech (Canto XXIX) is one of the most celebrated passages in the epic.\n\nSita's Speech (Canto XXVII–XXIX):\nRama tries to dissuade Sita from coming: the forest is dangerous, he will be poor, there will be no comfort. Sita's reply is the defining statement of her character: \"A wife's only refuge is her husband. Where you go, I go. Your forest is my Ayodhya. Your exile is my coronation.\" She refuses to stay behind. Lakshmana too refuses to remain. The three will go together.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXI": {
+          "text": "The emotional aftermath spreads outward like rings in water. Kaushalya collapses in grief (Canto XX). Lakshmana, Rama's devoted brother, erupts in fury — he wants to overthrow Dasharatha and Kaikeyi by force (Canto XXIII). Rama calms him: no act of violence for his sake, ever. Sita insists on accompanying Rama into the forest — her famous speech (Canto XXIX) is one of the most celebrated passages in the epic.\n\nSita's Speech (Canto XXVII–XXIX):\nRama tries to dissuade Sita from coming: the forest is dangerous, he will be poor, there will be no comfort. Sita's reply is the defining statement of her character: \"A wife's only refuge is her husband. Where you go, I go. Your forest is my Ayodhya. Your exile is my coronation.\" She refuses to stay behind. Lakshmana too refuses to remain. The three will go together.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXII": {
+          "text": "The emotional aftermath spreads outward like rings in water. Kaushalya collapses in grief (Canto XX). Lakshmana, Rama's devoted brother, erupts in fury — he wants to overthrow Dasharatha and Kaikeyi by force (Canto XXIII). Rama calms him: no act of violence for his sake, ever. Sita insists on accompanying Rama into the forest — her famous speech (Canto XXIX) is one of the most celebrated passages in the epic.\n\nSita's Speech (Canto XXVII–XXIX):\nRama tries to dissuade Sita from coming: the forest is dangerous, he will be poor, there will be no comfort. Sita's reply is the defining statement of her character: \"A wife's only refuge is her husband. Where you go, I go. Your forest is my Ayodhya. Your exile is my coronation.\" She refuses to stay behind. Lakshmana too refuses to remain. The three will go together.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXIII": {
+          "text": "The emotional aftermath spreads outward like rings in water. Kaushalya collapses in grief (Canto XX). Lakshmana, Rama's devoted brother, erupts in fury — he wants to overthrow Dasharatha and Kaikeyi by force (Canto XXIII). Rama calms him: no act of violence for his sake, ever. Sita insists on accompanying Rama into the forest — her famous speech (Canto XXIX) is one of the most celebrated passages in the epic.\n\nSita's Speech (Canto XXVII–XXIX):\nRama tries to dissuade Sita from coming: the forest is dangerous, he will be poor, there will be no comfort. Sita's reply is the defining statement of her character: \"A wife's only refuge is her husband. Where you go, I go. Your forest is my Ayodhya. Your exile is my coronation.\" She refuses to stay behind. Lakshmana too refuses to remain. The three will go together.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXIV": {
+          "text": "The emotional aftermath spreads outward like rings in water. Kaushalya collapses in grief (Canto XX). Lakshmana, Rama's devoted brother, erupts in fury — he wants to overthrow Dasharatha and Kaikeyi by force (Canto XXIII). Rama calms him: no act of violence for his sake, ever. Sita insists on accompanying Rama into the forest — her famous speech (Canto XXIX) is one of the most celebrated passages in the epic.\n\nSita's Speech (Canto XXVII–XXIX):\nRama tries to dissuade Sita from coming: the forest is dangerous, he will be poor, there will be no comfort. Sita's reply is the defining statement of her character: \"A wife's only refuge is her husband. Where you go, I go. Your forest is my Ayodhya. Your exile is my coronation.\" She refuses to stay behind. Lakshmana too refuses to remain. The three will go together.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXV": {
+          "text": "The emotional aftermath spreads outward like rings in water. Kaushalya collapses in grief (Canto XX). Lakshmana, Rama's devoted brother, erupts in fury — he wants to overthrow Dasharatha and Kaikeyi by force (Canto XXIII). Rama calms him: no act of violence for his sake, ever. Sita insists on accompanying Rama into the forest — her famous speech (Canto XXIX) is one of the most celebrated passages in the epic.\n\nSita's Speech (Canto XXVII–XXIX):\nRama tries to dissuade Sita from coming: the forest is dangerous, he will be poor, there will be no comfort. Sita's reply is the defining statement of her character: \"A wife's only refuge is her husband. Where you go, I go. Your forest is my Ayodhya. Your exile is my coronation.\" She refuses to stay behind. Lakshmana too refuses to remain. The three will go together.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXVI": {
+          "text": "The emotional aftermath spreads outward like rings in water. Kaushalya collapses in grief (Canto XX). Lakshmana, Rama's devoted brother, erupts in fury — he wants to overthrow Dasharatha and Kaikeyi by force (Canto XXIII). Rama calms him: no act of violence for his sake, ever. Sita insists on accompanying Rama into the forest — her famous speech (Canto XXIX) is one of the most celebrated passages in the epic.\n\nSita's Speech (Canto XXVII–XXIX):\nRama tries to dissuade Sita from coming: the forest is dangerous, he will be poor, there will be no comfort. Sita's reply is the defining statement of her character: \"A wife's only refuge is her husband. Where you go, I go. Your forest is my Ayodhya. Your exile is my coronation.\" She refuses to stay behind. Lakshmana too refuses to remain. The three will go together.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXVII": {
+          "text": "The emotional aftermath spreads outward like rings in water. Kaushalya collapses in grief (Canto XX). Lakshmana, Rama's devoted brother, erupts in fury — he wants to overthrow Dasharatha and Kaikeyi by force (Canto XXIII). Rama calms him: no act of violence for his sake, ever. Sita insists on accompanying Rama into the forest — her famous speech (Canto XXIX) is one of the most celebrated passages in the epic.\n\nSita's Speech (Canto XXVII–XXIX):\nRama tries to dissuade Sita from coming: the forest is dangerous, he will be poor, there will be no comfort. Sita's reply is the defining statement of her character: \"A wife's only refuge is her husband. Where you go, I go. Your forest is my Ayodhya. Your exile is my coronation.\" She refuses to stay behind. Lakshmana too refuses to remain. The three will go together.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXVIII": {
+          "text": "The emotional aftermath spreads outward like rings in water. Kaushalya collapses in grief (Canto XX). Lakshmana, Rama's devoted brother, erupts in fury — he wants to overthrow Dasharatha and Kaikeyi by force (Canto XXIII). Rama calms him: no act of violence for his sake, ever. Sita insists on accompanying Rama into the forest — her famous speech (Canto XXIX) is one of the most celebrated passages in the epic.\n\nSita's Speech (Canto XXVII–XXIX):\nRama tries to dissuade Sita from coming: the forest is dangerous, he will be poor, there will be no comfort. Sita's reply is the defining statement of her character: \"A wife's only refuge is her husband. Where you go, I go. Your forest is my Ayodhya. Your exile is my coronation.\" She refuses to stay behind. Lakshmana too refuses to remain. The three will go together.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXIX": {
+          "text": "The emotional aftermath spreads outward like rings in water. Kaushalya collapses in grief (Canto XX). Lakshmana, Rama's devoted brother, erupts in fury — he wants to overthrow Dasharatha and Kaikeyi by force (Canto XXIII). Rama calms him: no act of violence for his sake, ever. Sita insists on accompanying Rama into the forest — her famous speech (Canto XXIX) is one of the most celebrated passages in the epic.\n\nSita's Speech (Canto XXVII–XXIX):\nRama tries to dissuade Sita from coming: the forest is dangerous, he will be poor, there will be no comfort. Sita's reply is the defining statement of her character: \"A wife's only refuge is her husband. Where you go, I go. Your forest is my Ayodhya. Your exile is my coronation.\" She refuses to stay behind. Lakshmana too refuses to remain. The three will go together.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXX": {
+          "text": "The emotional aftermath spreads outward like rings in water. Kaushalya collapses in grief (Canto XX). Lakshmana, Rama's devoted brother, erupts in fury — he wants to overthrow Dasharatha and Kaikeyi by force (Canto XXIII). Rama calms him: no act of violence for his sake, ever. Sita insists on accompanying Rama into the forest — her famous speech (Canto XXIX) is one of the most celebrated passages in the epic.\n\nSita's Speech (Canto XXVII–XXIX):\nRama tries to dissuade Sita from coming: the forest is dangerous, he will be poor, there will be no comfort. Sita's reply is the defining statement of her character: \"A wife's only refuge is her husband. Where you go, I go. Your forest is my Ayodhya. Your exile is my coronation.\" She refuses to stay behind. Lakshmana too refuses to remain. The three will go together.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXVII": {
+          "text": "The three — Rama, Sita, Lakshmana — appear before the people of Ayodhya dressed as forest ascetics, in bark garments and matted hair. The sight of Sita, a princess, dressed as a renunciant, breaks the city's heart. Old women weep. Men are furious at Kaikeyi.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XL": {
+          "text": "The procession leaves the city. The entire population of Ayodhya follows Rama's chariot, refusing to let him go, weeping and calling out his name. This is one of the epic's most powerful scenes — a whole city's grief made physical.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLIV": {
+          "text": "Sumitra, Lakshmana's mother, bids farewell with extraordinary composure. She does not weep. She tells Lakshmana: \"Serve Rama as you would serve me, and serve Sita as you would serve your own father. Consider the forest to be Ayodhya, and your exile to be your coronation.\" She is the model of noble forbearance, and her speech echoes Sita's.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLVII": {
+          "text": "After following through the night, the citizens finally cannot keep up. They sleep by the road. Rama, unwilling to lead them further into hardship, instructs his charioteer Sumantra to drive away while they sleep — a painful deception, but an act of compassion. The citizens wake to find him gone.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLIX": {
+          "text": "Rama, Sita, and Lakshmana cross the Tamasa, then the Ganga. At the Ganges, the boatman Guha (a tribal chief who is Rama's old friend) ferries them across. On the opposite bank, Rama ties his hair in matted locks — the final physical symbol of his renunciation of royal life. He asks Sumantra to return to Ayodhya.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "L": {
+          "text": "Rama, Sita, and Lakshmana cross the Tamasa, then the Ganga. At the Ganges, the boatman Guha (a tribal chief who is Rama's old friend) ferries them across. On the opposite bank, Rama ties his hair in matted locks — the final physical symbol of his renunciation of royal life. He asks Sumantra to return to Ayodhya.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LI": {
+          "text": "Rama, Sita, and Lakshmana cross the Tamasa, then the Ganga. At the Ganges, the boatman Guha (a tribal chief who is Rama's old friend) ferries them across. On the opposite bank, Rama ties his hair in matted locks — the final physical symbol of his renunciation of royal life. He asks Sumantra to return to Ayodhya.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LII": {
+          "text": "Rama, Sita, and Lakshmana cross the Tamasa, then the Ganga. At the Ganges, the boatman Guha (a tribal chief who is Rama's old friend) ferries them across. On the opposite bank, Rama ties his hair in matted locks — the final physical symbol of his renunciation of royal life. He asks Sumantra to return to Ayodhya.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LIII": {
+          "text": "Rama, Sita, and Lakshmana cross the Tamasa, then the Ganga. At the Ganges, the boatman Guha (a tribal chief who is Rama's old friend) ferries them across. On the opposite bank, Rama ties his hair in matted locks — the final physical symbol of his renunciation of royal life. He asks Sumantra to return to Ayodhya.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LIV": {
+          "text": "The three travelers arrive at the hermitage of the sage Bharadvaja, at the confluence of the Ganges and Yamuna (modern Allahabad/Prayagraj). Bharadvaja welcomes them warmly and suggests they settle at Chitrakuta mountain — a beautiful, serene place sacred to the sages.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LV": {
+          "text": "Rama, Sita, and Lakshmana cross the Tamasa, then the Ganga. At the Ganges, the boatman Guha (a tribal chief who is Rama's old friend) ferries them across. On the opposite bank, Rama ties his hair in matted locks — the final physical symbol of his renunciation of royal life. He asks Sumantra to return to Ayodhya.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LVI": {
+          "text": "They build a hermitage at Chitrakuta. The three live in peace and simplicity. The forest is described with great beauty — flowers, waterfalls, animals, birdsong. This is the paradox at the heart of the Ayodhya Kanda: the exile is, in terms of external circumstance, not unpleasant. What makes it painful is what was left behind.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LVII": {
+          "text": "Sumantra returns to Ayodhya alone. The image of the empty chariot returning without Rama destroys what is left of Dasharatha's spirit. Rama's message to his father: \"Do not reproach Kaikeyi. Her action, however painful, will lead to great good in the world.\" Even in exile, Rama protects others from their own grief.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LVIII": {
+          "text": "Sumantra returns to Ayodhya alone. The image of the empty chariot returning without Rama destroys what is left of Dasharatha's spirit. Rama's message to his father: \"Do not reproach Kaikeyi. Her action, however painful, will lead to great good in the world.\" Even in exile, Rama protects others from their own grief.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LIX": {
+          "text": "Back in Ayodhya, Dasharatha lies dying of grief. He summons Kaushalya in the night and tells her a story from his own past — a terrible sin he committed as a young man: while hunting in the dark, he shot a blind hermit's son who was filling water at a stream. The young man died. His blind parents cursed Dasharatha: \"You too will die separated from your son, consumed by grief for him.\" The curse is now fulfilling itself.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXIV": {
+          "text": "Dasharatha dies in the night, alone except for Kaushalya and Sumitra, calling for Rama, Lakshmana, and Bharata — none of whom are there. The death is understated and devastating.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXVIII": {
+          "text": "Bharata, away at his grandfather's palace, has a series of terrible nightmares. He rushes home to find his father dead and Rama in exile. He is told his mother caused all of this.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXIX": {
+          "text": "Bharata, away at his grandfather's palace, has a series of terrible nightmares. He rushes home to find his father dead and Rama in exile. He is told his mother caused all of this.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXX": {
+          "text": "Bharata, away at his grandfather's palace, has a series of terrible nightmares. He rushes home to find his father dead and Rama in exile. He is told his mother caused all of this.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXXI": {
+          "text": "Bharata, away at his grandfather's palace, has a series of terrible nightmares. He rushes home to find his father dead and Rama in exile. He is told his mother caused all of this.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXXIII": {
+          "text": "Bharata confronts Kaikeyi in one of the most searing scenes in the epic. He denounces her publicly, absolutely, without mercy: \"You are not my mother. You are my enemy. You have murdered my father. You have stolen my brother's crown.\" He refuses to be king.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXXX": {
+          "text": "Bharata leads the entire court — ministers, queens, elephants, soldiers, the sage Vasishtha — in a march to Chitrakuta to find Rama and beg him to return.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXXXI": {
+          "text": "Bharata leads the entire court — ministers, queens, elephants, soldiers, the sage Vasishtha — in a march to Chitrakuta to find Rama and beg him to return.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXXXII": {
+          "text": "Bharata leads the entire court — ministers, queens, elephants, soldiers, the sage Vasishtha — in a march to Chitrakuta to find Rama and beg him to return.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXXXIII": {
+          "text": "Bharata leads the entire court — ministers, queens, elephants, soldiers, the sage Vasishtha — in a march to Chitrakuta to find Rama and beg him to return.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXXXIV": {
+          "text": "Bharata leads the entire court — ministers, queens, elephants, soldiers, the sage Vasishtha — in a march to Chitrakuta to find Rama and beg him to return.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXXXV": {
+          "text": "Bharata leads the entire court — ministers, queens, elephants, soldiers, the sage Vasishtha — in a march to Chitrakuta to find Rama and beg him to return.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXXXVI": {
+          "text": "Bharata leads the entire court — ministers, queens, elephants, soldiers, the sage Vasishtha — in a march to Chitrakuta to find Rama and beg him to return.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXXXVII": {
+          "text": "Bharata leads the entire court — ministers, queens, elephants, soldiers, the sage Vasishtha — in a march to Chitrakuta to find Rama and beg him to return.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXXXVIII": {
+          "text": "Bharata leads the entire court — ministers, queens, elephants, soldiers, the sage Vasishtha — in a march to Chitrakuta to find Rama and beg him to return.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXXXIX": {
+          "text": "Bharata leads the entire court — ministers, queens, elephants, soldiers, the sage Vasishtha — in a march to Chitrakuta to find Rama and beg him to return.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XC": {
+          "text": "Bharata leads the entire court — ministers, queens, elephants, soldiers, the sage Vasishtha — in a march to Chitrakuta to find Rama and beg him to return.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XCI": {
+          "text": "Bharata leads the entire court — ministers, queens, elephants, soldiers, the sage Vasishtha — in a march to Chitrakuta to find Rama and beg him to return.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XCII": {
+          "text": "Bharata leads the entire court — ministers, queens, elephants, soldiers, the sage Vasishtha — in a march to Chitrakuta to find Rama and beg him to return.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XCIII": {
+          "text": "Bharata leads the entire court — ministers, queens, elephants, soldiers, the sage Vasishtha — in a march to Chitrakuta to find Rama and beg him to return.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XCIV": {
+          "text": "Bharata leads the entire court — ministers, queens, elephants, soldiers, the sage Vasishtha — in a march to Chitrakuta to find Rama and beg him to return.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XCV": {
+          "text": "Bharata leads the entire court — ministers, queens, elephants, soldiers, the sage Vasishtha — in a march to Chitrakuta to find Rama and beg him to return.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XCVI": {
+          "text": "Bharata leads the entire court — ministers, queens, elephants, soldiers, the sage Vasishtha — in a march to Chitrakuta to find Rama and beg him to return.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XCVII": {
+          "text": "Bharata leads the entire court — ministers, queens, elephants, soldiers, the sage Vasishtha — in a march to Chitrakuta to find Rama and beg him to return.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XCVIII": {
+          "text": "Bharata leads the entire court — ministers, queens, elephants, soldiers, the sage Vasishtha — in a march to Chitrakuta to find Rama and beg him to return.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XCIX": {
+          "text": "Bharata leads the entire court — ministers, queens, elephants, soldiers, the sage Vasishtha — in a march to Chitrakuta to find Rama and beg him to return.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "C": {
+          "text": "The reunion of the brothers at Chitrakuta. Bharata falls at Rama's feet and begs him to come home and take the throne. Rama refuses: his father made a promise, and Rama will honor it regardless of whether Dasharatha is alive to witness it. The argument between Bharata and Rama is one of the most sustained philosophical debates in the epic — each brother trying to be more righteous than the other.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CI": {
+          "text": "The reunion of the brothers at Chitrakuta. Bharata falls at Rama's feet and begs him to come home and take the throne. Rama refuses: his father made a promise, and Rama will honor it regardless of whether Dasharatha is alive to witness it. The argument between Bharata and Rama is one of the most sustained philosophical debates in the epic — each brother trying to be more righteous than the other.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CII": {
+          "text": "The reunion of the brothers at Chitrakuta. Bharata falls at Rama's feet and begs him to come home and take the throne. Rama refuses: his father made a promise, and Rama will honor it regardless of whether Dasharatha is alive to witness it. The argument between Bharata and Rama is one of the most sustained philosophical debates in the epic — each brother trying to be more righteous than the other.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CIII": {
+          "text": "The reunion of the brothers at Chitrakuta. Bharata falls at Rama's feet and begs him to come home and take the throne. Rama refuses: his father made a promise, and Rama will honor it regardless of whether Dasharatha is alive to witness it. The argument between Bharata and Rama is one of the most sustained philosophical debates in the epic — each brother trying to be more righteous than the other.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CIV": {
+          "text": "The reunion of the brothers at Chitrakuta. Bharata falls at Rama's feet and begs him to come home and take the throne. Rama refuses: his father made a promise, and Rama will honor it regardless of whether Dasharatha is alive to witness it. The argument between Bharata and Rama is one of the most sustained philosophical debates in the epic — each brother trying to be more righteous than the other.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CV": {
+          "text": "The reunion of the brothers at Chitrakuta. Bharata falls at Rama's feet and begs him to come home and take the throne. Rama refuses: his father made a promise, and Rama will honor it regardless of whether Dasharatha is alive to witness it. The argument between Bharata and Rama is one of the most sustained philosophical debates in the epic — each brother trying to be more righteous than the other.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CVI": {
+          "text": "The reunion of the brothers at Chitrakuta. Bharata falls at Rama's feet and begs him to come home and take the throne. Rama refuses: his father made a promise, and Rama will honor it regardless of whether Dasharatha is alive to witness it. The argument between Bharata and Rama is one of the most sustained philosophical debates in the epic — each brother trying to be more righteous than the other.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CVII": {
+          "text": "The reunion of the brothers at Chitrakuta. Bharata falls at Rama's feet and begs him to come home and take the throne. Rama refuses: his father made a promise, and Rama will honor it regardless of whether Dasharatha is alive to witness it. The argument between Bharata and Rama is one of the most sustained philosophical debates in the epic — each brother trying to be more righteous than the other.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CVIII": {
+          "text": "The reunion of the brothers at Chitrakuta. Bharata falls at Rama's feet and begs him to come home and take the throne. Rama refuses: his father made a promise, and Rama will honor it regardless of whether Dasharatha is alive to witness it. The argument between Bharata and Rama is one of the most sustained philosophical debates in the epic — each brother trying to be more righteous than the other.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CIX": {
+          "text": "The reunion of the brothers at Chitrakuta. Bharata falls at Rama's feet and begs him to come home and take the throne. Rama refuses: his father made a promise, and Rama will honor it regardless of whether Dasharatha is alive to witness it. The argument between Bharata and Rama is one of the most sustained philosophical debates in the epic — each brother trying to be more righteous than the other.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CX": {
+          "text": "The reunion of the brothers at Chitrakuta. Bharata falls at Rama's feet and begs him to come home and take the throne. Rama refuses: his father made a promise, and Rama will honor it regardless of whether Dasharatha is alive to witness it. The argument between Bharata and Rama is one of the most sustained philosophical debates in the epic — each brother trying to be more righteous than the other.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CXI": {
+          "text": "The reunion of the brothers at Chitrakuta. Bharata falls at Rama's feet and begs him to come home and take the throne. Rama refuses: his father made a promise, and Rama will honor it regardless of whether Dasharatha is alive to witness it. The argument between Bharata and Rama is one of the most sustained philosophical debates in the epic — each brother trying to be more righteous than the other.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CXII": {
+          "text": "Rama removes his sandals and gives them to Bharata. Bharata places them on the throne in Ayodhya as the symbol of Rama's continuing kingship, and he rules as regent — not as king — for the fourteen years, living himself as an ascetic at Nandigrama, never entering the palace, counting the days.",
+          "keyIdea": null,
+          "inlineImage": null
+        }
+      }
+    },
+    "III": {
+      "intro": "What this book is about: The forest years. Rama, Sita, and Lakshmana wander through the great forests of central India, meeting sages, battling demons, and gradually moving deeper into the dangerous south. The book builds steadily toward catastrophe: the appearance of Ravana's sister Shurpanakha, the golden deer, and the abduction of Sita. It is the book of loss.\n\nCore theme: Vigilance, protection, and the vulnerability of beauty and goodness in a dangerous world.\n\n---",
+      "cantoMap": {
+        "I": {
+          "text": "Entering the great Dandaka forest (modern Maharashtra/Chhattisgarh region), they immediately encounter Viradha — a monstrous demon who grabs Sita. Rama and Lakshmana fight him, find he cannot be killed by weapons (due to a boon), and bury him alive. As he dies, Viradha is freed from a curse: he was a celestial being (gandharva) punished into this form.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "II": {
+          "text": "Entering the great Dandaka forest (modern Maharashtra/Chhattisgarh region), they immediately encounter Viradha — a monstrous demon who grabs Sita. Rama and Lakshmana fight him, find he cannot be killed by weapons (due to a boon), and bury him alive. As he dies, Viradha is freed from a curse: he was a celestial being (gandharva) punished into this form.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "III": {
+          "text": "Entering the great Dandaka forest (modern Maharashtra/Chhattisgarh region), they immediately encounter Viradha — a monstrous demon who grabs Sita. Rama and Lakshmana fight him, find he cannot be killed by weapons (due to a boon), and bury him alive. As he dies, Viradha is freed from a curse: he was a celestial being (gandharva) punished into this form.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "IV": {
+          "text": "Entering the great Dandaka forest (modern Maharashtra/Chhattisgarh region), they immediately encounter Viradha — a monstrous demon who grabs Sita. Rama and Lakshmana fight him, find he cannot be killed by weapons (due to a boon), and bury him alive. As he dies, Viradha is freed from a curse: he was a celestial being (gandharva) punished into this form.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "V": {
+          "text": "The three visit a series of sages' hermitages in the forest. At Sarabhanga's hermitage, Rama sees Indra ascending to heaven with Sarabhanga — the sage has completed his earthly mission and departs immediately upon seeing Rama. This is significant: Sarabhanga had been waiting specifically to see Rama before dying.\n\nThe sages gather and make a collective plea: the forests of the Dandaka are being terrorized by demons, who attack hermitages and defile sacrifices. They ask Rama, as a Kshatriya warrior, to protect them. Rama makes a solemn vow: while he is in this forest, no demon shall harm any sage. This vow will eventually set the chain of events in motion.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "VI": {
+          "text": "The three visit a series of sages' hermitages in the forest. At Sarabhanga's hermitage, Rama sees Indra ascending to heaven with Sarabhanga — the sage has completed his earthly mission and departs immediately upon seeing Rama. This is significant: Sarabhanga had been waiting specifically to see Rama before dying.\n\nThe sages gather and make a collective plea: the forests of the Dandaka are being terrorized by demons, who attack hermitages and defile sacrifices. They ask Rama, as a Kshatriya warrior, to protect them. Rama makes a solemn vow: while he is in this forest, no demon shall harm any sage. This vow will eventually set the chain of events in motion.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "VII": {
+          "text": "The three visit a series of sages' hermitages in the forest. At Sarabhanga's hermitage, Rama sees Indra ascending to heaven with Sarabhanga — the sage has completed his earthly mission and departs immediately upon seeing Rama. This is significant: Sarabhanga had been waiting specifically to see Rama before dying.\n\nThe sages gather and make a collective plea: the forests of the Dandaka are being terrorized by demons, who attack hermitages and defile sacrifices. They ask Rama, as a Kshatriya warrior, to protect them. Rama makes a solemn vow: while he is in this forest, no demon shall harm any sage. This vow will eventually set the chain of events in motion.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "VIII": {
+          "text": "The three visit a series of sages' hermitages in the forest. At Sarabhanga's hermitage, Rama sees Indra ascending to heaven with Sarabhanga — the sage has completed his earthly mission and departs immediately upon seeing Rama. This is significant: Sarabhanga had been waiting specifically to see Rama before dying.\n\nThe sages gather and make a collective plea: the forests of the Dandaka are being terrorized by demons, who attack hermitages and defile sacrifices. They ask Rama, as a Kshatriya warrior, to protect them. Rama makes a solemn vow: while he is in this forest, no demon shall harm any sage. This vow will eventually set the chain of events in motion.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XI": {
+          "text": "The great sage Agastya gives Rama Indra's bow, arrows, and a sword that had belonged to Vishnu — divine weapons for the battles ahead.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XII": {
+          "text": "The great sage Agastya gives Rama Indra's bow, arrows, and a sword that had belonged to Vishnu — divine weapons for the battles ahead.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XIII": {
+          "text": "The great sage Agastya gives Rama Indra's bow, arrows, and a sword that had belonged to Vishnu — divine weapons for the battles ahead.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XIV": {
+          "text": "Rama meets Jatayu, a vast ancient vulture (a bird of divine lineage, a friend of his father Dasharatha). Jatayu pledges to protect Sita while Rama is away hunting. This meeting is brief and tender — and its consequences will be among the most moving in the entire epic.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XV": {
+          "text": "The three settle at Panchavati (a grove of five banyan trees, near modern Nashik, Maharashtra). They build a hut and begin to live in peace. The description of the place is gorgeous — a bend in the Godavari River, abundant fruit, flowers, and birdsong. The domestic tranquility is beautiful and brief.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XVII": {
+          "text": "Shurpanakha (the \"one with nails like winnowing fans\"), sister of Ravana, comes to Panchavati and sees Rama. She is immediately entranced and approaches him boldly, declaring her love. Rama deflects her graciously toward Lakshmana. Lakshmana deflects her back to Rama. This exchange, playful on the surface, enrages her.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XVIII": {
+          "text": "She turns to attack Sita out of jealousy. Lakshmana restrains her and, at Rama's signal, cuts off her nose and ears. She flees screaming.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XIX": {
+          "text": "Shurpanakha goes to her demon-kinsmen Khara and Dushana, who lead an army of fourteen thousand demons against Rama. Rama, alone (he sends Sita and Lakshmana to safety), fights the entire army and destroys it — Khara, Dushana, Trishiras, and all their forces — in a battle of extraordinary violence and speed.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XX": {
+          "text": "Shurpanakha goes to her demon-kinsmen Khara and Dushana, who lead an army of fourteen thousand demons against Rama. Rama, alone (he sends Sita and Lakshmana to safety), fights the entire army and destroys it — Khara, Dushana, Trishiras, and all their forces — in a battle of extraordinary violence and speed.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXI": {
+          "text": "Shurpanakha goes to her demon-kinsmen Khara and Dushana, who lead an army of fourteen thousand demons against Rama. Rama, alone (he sends Sita and Lakshmana to safety), fights the entire army and destroys it — Khara, Dushana, Trishiras, and all their forces — in a battle of extraordinary violence and speed.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXII": {
+          "text": "Shurpanakha goes to her demon-kinsmen Khara and Dushana, who lead an army of fourteen thousand demons against Rama. Rama, alone (he sends Sita and Lakshmana to safety), fights the entire army and destroys it — Khara, Dushana, Trishiras, and all their forces — in a battle of extraordinary violence and speed.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXIII": {
+          "text": "Shurpanakha goes to her demon-kinsmen Khara and Dushana, who lead an army of fourteen thousand demons against Rama. Rama, alone (he sends Sita and Lakshmana to safety), fights the entire army and destroys it — Khara, Dushana, Trishiras, and all their forces — in a battle of extraordinary violence and speed.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXIV": {
+          "text": "Shurpanakha goes to her demon-kinsmen Khara and Dushana, who lead an army of fourteen thousand demons against Rama. Rama, alone (he sends Sita and Lakshmana to safety), fights the entire army and destroys it — Khara, Dushana, Trishiras, and all their forces — in a battle of extraordinary violence and speed.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXV": {
+          "text": "Shurpanakha goes to her demon-kinsmen Khara and Dushana, who lead an army of fourteen thousand demons against Rama. Rama, alone (he sends Sita and Lakshmana to safety), fights the entire army and destroys it — Khara, Dushana, Trishiras, and all their forces — in a battle of extraordinary violence and speed.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXVI": {
+          "text": "Shurpanakha goes to her demon-kinsmen Khara and Dushana, who lead an army of fourteen thousand demons against Rama. Rama, alone (he sends Sita and Lakshmana to safety), fights the entire army and destroys it — Khara, Dushana, Trishiras, and all their forces — in a battle of extraordinary violence and speed.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXVII": {
+          "text": "Shurpanakha goes to her demon-kinsmen Khara and Dushana, who lead an army of fourteen thousand demons against Rama. Rama, alone (he sends Sita and Lakshmana to safety), fights the entire army and destroys it — Khara, Dushana, Trishiras, and all their forces — in a battle of extraordinary violence and speed.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXVIII": {
+          "text": "Shurpanakha goes to her demon-kinsmen Khara and Dushana, who lead an army of fourteen thousand demons against Rama. Rama, alone (he sends Sita and Lakshmana to safety), fights the entire army and destroys it — Khara, Dushana, Trishiras, and all their forces — in a battle of extraordinary violence and speed.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXIX": {
+          "text": "Shurpanakha goes to her demon-kinsmen Khara and Dushana, who lead an army of fourteen thousand demons against Rama. Rama, alone (he sends Sita and Lakshmana to safety), fights the entire army and destroys it — Khara, Dushana, Trishiras, and all their forces — in a battle of extraordinary violence and speed.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXX": {
+          "text": "Shurpanakha goes to her demon-kinsmen Khara and Dushana, who lead an army of fourteen thousand demons against Rama. Rama, alone (he sends Sita and Lakshmana to safety), fights the entire army and destroys it — Khara, Dushana, Trishiras, and all their forces — in a battle of extraordinary violence and speed.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXI": {
+          "text": "News reaches Ravana in Lanka. Shurpanakha arrives and, with calculated strategic intelligence, describes Sita to Ravana — not merely as a way to provoke him, but as bait. She knows Ravana cannot resist. She describes Sita's beauty with such hyperbolic precision that Ravana's desire is immediately ignited.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXII": {
+          "text": "News reaches Ravana in Lanka. Shurpanakha arrives and, with calculated strategic intelligence, describes Sita to Ravana — not merely as a way to provoke him, but as bait. She knows Ravana cannot resist. She describes Sita's beauty with such hyperbolic precision that Ravana's desire is immediately ignited.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXIII": {
+          "text": "News reaches Ravana in Lanka. Shurpanakha arrives and, with calculated strategic intelligence, describes Sita to Ravana — not merely as a way to provoke him, but as bait. She knows Ravana cannot resist. She describes Sita's beauty with such hyperbolic precision that Ravana's desire is immediately ignited.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXIV": {
+          "text": "News reaches Ravana in Lanka. Shurpanakha arrives and, with calculated strategic intelligence, describes Sita to Ravana — not merely as a way to provoke him, but as bait. She knows Ravana cannot resist. She describes Sita's beauty with such hyperbolic precision that Ravana's desire is immediately ignited.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXV": {
+          "text": "Ravana travels to the demon Maricha (whom Rama had blasted away in Book I but not killed). Maricha tries to warn Ravana: do not anger Rama. Twice he describes what Rama's arrows feel like. Ravana insists. Maricha agrees, knowing he will die — but reasoning that death at Rama's hands is far better than death at Ravana's.\n\nMaricha's plan: transform himself into a golden deer of extraordinary beauty and lure Rama away from Sita. While Rama is away, Ravana will come in disguise. When Sita calls for Lakshmana (thinking Rama is in danger), Lakshmana will be drawn away too. Then Ravana can take Sita.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXVI": {
+          "text": "Ravana travels to the demon Maricha (whom Rama had blasted away in Book I but not killed). Maricha tries to warn Ravana: do not anger Rama. Twice he describes what Rama's arrows feel like. Ravana insists. Maricha agrees, knowing he will die — but reasoning that death at Rama's hands is far better than death at Ravana's.\n\nMaricha's plan: transform himself into a golden deer of extraordinary beauty and lure Rama away from Sita. While Rama is away, Ravana will come in disguise. When Sita calls for Lakshmana (thinking Rama is in danger), Lakshmana will be drawn away too. Then Ravana can take Sita.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXVII": {
+          "text": "Ravana travels to the demon Maricha (whom Rama had blasted away in Book I but not killed). Maricha tries to warn Ravana: do not anger Rama. Twice he describes what Rama's arrows feel like. Ravana insists. Maricha agrees, knowing he will die — but reasoning that death at Rama's hands is far better than death at Ravana's.\n\nMaricha's plan: transform himself into a golden deer of extraordinary beauty and lure Rama away from Sita. While Rama is away, Ravana will come in disguise. When Sita calls for Lakshmana (thinking Rama is in danger), Lakshmana will be drawn away too. Then Ravana can take Sita.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXVIII": {
+          "text": "Ravana travels to the demon Maricha (whom Rama had blasted away in Book I but not killed). Maricha tries to warn Ravana: do not anger Rama. Twice he describes what Rama's arrows feel like. Ravana insists. Maricha agrees, knowing he will die — but reasoning that death at Rama's hands is far better than death at Ravana's.\n\nMaricha's plan: transform himself into a golden deer of extraordinary beauty and lure Rama away from Sita. While Rama is away, Ravana will come in disguise. When Sita calls for Lakshmana (thinking Rama is in danger), Lakshmana will be drawn away too. Then Ravana can take Sita.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXIX": {
+          "text": "Ravana travels to the demon Maricha (whom Rama had blasted away in Book I but not killed). Maricha tries to warn Ravana: do not anger Rama. Twice he describes what Rama's arrows feel like. Ravana insists. Maricha agrees, knowing he will die — but reasoning that death at Rama's hands is far better than death at Ravana's.\n\nMaricha's plan: transform himself into a golden deer of extraordinary beauty and lure Rama away from Sita. While Rama is away, Ravana will come in disguise. When Sita calls for Lakshmana (thinking Rama is in danger), Lakshmana will be drawn away too. Then Ravana can take Sita.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XL": {
+          "text": "Ravana travels to the demon Maricha (whom Rama had blasted away in Book I but not killed). Maricha tries to warn Ravana: do not anger Rama. Twice he describes what Rama's arrows feel like. Ravana insists. Maricha agrees, knowing he will die — but reasoning that death at Rama's hands is far better than death at Ravana's.\n\nMaricha's plan: transform himself into a golden deer of extraordinary beauty and lure Rama away from Sita. While Rama is away, Ravana will come in disguise. When Sita calls for Lakshmana (thinking Rama is in danger), Lakshmana will be drawn away too. Then Ravana can take Sita.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLI": {
+          "text": "Ravana travels to the demon Maricha (whom Rama had blasted away in Book I but not killed). Maricha tries to warn Ravana: do not anger Rama. Twice he describes what Rama's arrows feel like. Ravana insists. Maricha agrees, knowing he will die — but reasoning that death at Rama's hands is far better than death at Ravana's.\n\nMaricha's plan: transform himself into a golden deer of extraordinary beauty and lure Rama away from Sita. While Rama is away, Ravana will come in disguise. When Sita calls for Lakshmana (thinking Rama is in danger), Lakshmana will be drawn away too. Then Ravana can take Sita.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLII": {
+          "text": "The golden deer appears. Sita sees it and is enchanted — she asks Rama to catch it for her, alive or dead. Lakshmana warns Rama: no natural deer looks like this — it must be a demon (Maricha had transformed before). Rama knows — but he has to go, because he has promised Sita whatever she asks, and because something deeper drives him: fate.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLIII": {
+          "text": "The golden deer appears. Sita sees it and is enchanted — she asks Rama to catch it for her, alive or dead. Lakshmana warns Rama: no natural deer looks like this — it must be a demon (Maricha had transformed before). Rama knows — but he has to go, because he has promised Sita whatever she asks, and because something deeper drives him: fate.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLIV": {
+          "text": "Rama tracks the deer deep into the forest and kills it. As Maricha dies, he cries out in Rama's voice: \"Sita! Lakshmana!\" Sita hears the cry and is terrified. She begs Lakshmana to go to his brother. Lakshmana does not want to leave — he knows this is the trap. But Sita, in her fear, accuses him of wanting to see Rama harmed so that he can have her for himself. These words — spoken in terror, not malice — wound Lakshmana deeply. He draws a protective circle around her (the Lakshmana-rekha, famous in tradition though not explicitly named in the text) and leaves.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLVI": {
+          "text": "Ravana appears at Sita's door disguised as a wandering brahmin. Sita, who cannot turn away a brahmin, invites him in and offers hospitality. The moment she steps across the line to serve him, Ravana reveals himself. He describes his own magnificence, power, and kingdoms — trying to seduce her. Sita refuses absolutely and completely. Ravana grabs her and ascends into the sky in his flying chariot.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLVII": {
+          "text": "Ravana appears at Sita's door disguised as a wandering brahmin. Sita, who cannot turn away a brahmin, invites him in and offers hospitality. The moment she steps across the line to serve him, Ravana reveals himself. He describes his own magnificence, power, and kingdoms — trying to seduce her. Sita refuses absolutely and completely. Ravana grabs her and ascends into the sky in his flying chariot.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLVIII": {
+          "text": "Ravana appears at Sita's door disguised as a wandering brahmin. Sita, who cannot turn away a brahmin, invites him in and offers hospitality. The moment she steps across the line to serve him, Ravana reveals himself. He describes his own magnificence, power, and kingdoms — trying to seduce her. Sita refuses absolutely and completely. Ravana grabs her and ascends into the sky in his flying chariot.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLIX": {
+          "text": "Ravana appears at Sita's door disguised as a wandering brahmin. Sita, who cannot turn away a brahmin, invites him in and offers hospitality. The moment she steps across the line to serve him, Ravana reveals himself. He describes his own magnificence, power, and kingdoms — trying to seduce her. Sita refuses absolutely and completely. Ravana grabs her and ascends into the sky in his flying chariot.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "L": {
+          "text": "Jatayu, the great vulture, hears Sita's cries and attacks Ravana in midair. Old, enormous, and brave, he fights Ravana to a standstill — breaking his weapons and destroying his chariot. Ravana draws his sword and cuts off Jatayu's wings. The old bird falls dying.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LI": {
+          "text": "As Ravana carries Sita through the sky, she cries out to the trees and rivers and mountains to bear witness, to tell Rama where she is being taken. She throws down her jewelry piece by piece as a trail. In Lanka, she is imprisoned in the Ashoka grove and refuses all of Ravana's advances, holding a blade of grass before her as if it were a shield.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LII": {
+          "text": "As Ravana carries Sita through the sky, she cries out to the trees and rivers and mountains to bear witness, to tell Rama where she is being taken. She throws down her jewelry piece by piece as a trail. In Lanka, she is imprisoned in the Ashoka grove and refuses all of Ravana's advances, holding a blade of grass before her as if it were a shield.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LIII": {
+          "text": "As Ravana carries Sita through the sky, she cries out to the trees and rivers and mountains to bear witness, to tell Rama where she is being taken. She throws down her jewelry piece by piece as a trail. In Lanka, she is imprisoned in the Ashoka grove and refuses all of Ravana's advances, holding a blade of grass before her as if it were a shield.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LIV": {
+          "text": "As Ravana carries Sita through the sky, she cries out to the trees and rivers and mountains to bear witness, to tell Rama where she is being taken. She throws down her jewelry piece by piece as a trail. In Lanka, she is imprisoned in the Ashoka grove and refuses all of Ravana's advances, holding a blade of grass before her as if it were a shield.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LV": {
+          "text": "As Ravana carries Sita through the sky, she cries out to the trees and rivers and mountains to bear witness, to tell Rama where she is being taken. She throws down her jewelry piece by piece as a trail. In Lanka, she is imprisoned in the Ashoka grove and refuses all of Ravana's advances, holding a blade of grass before her as if it were a shield.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LVI": {
+          "text": "As Ravana carries Sita through the sky, she cries out to the trees and rivers and mountains to bear witness, to tell Rama where she is being taken. She throws down her jewelry piece by piece as a trail. In Lanka, she is imprisoned in the Ashoka grove and refuses all of Ravana's advances, holding a blade of grass before her as if it were a shield.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LVII": {
+          "text": "As Ravana carries Sita through the sky, she cries out to the trees and rivers and mountains to bear witness, to tell Rama where she is being taken. She throws down her jewelry piece by piece as a trail. In Lanka, she is imprisoned in the Ashoka grove and refuses all of Ravana's advances, holding a blade of grass before her as if it were a shield.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LVIII": {
+          "text": "When Rama returns to Panchavati and finds Sita gone, there is a series of cantos of raw grief. He asks the trees, the river, the animals where she went. He accuses himself of the ultimate failure — he could not protect his wife. The grief is absolute, nearly unhinged.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LIX": {
+          "text": "When Rama returns to Panchavati and finds Sita gone, there is a series of cantos of raw grief. He asks the trees, the river, the animals where she went. He accuses himself of the ultimate failure — he could not protect his wife. The grief is absolute, nearly unhinged.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LX": {
+          "text": "When Rama returns to Panchavati and finds Sita gone, there is a series of cantos of raw grief. He asks the trees, the river, the animals where she went. He accuses himself of the ultimate failure — he could not protect his wife. The grief is absolute, nearly unhinged.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXI": {
+          "text": "When Rama returns to Panchavati and finds Sita gone, there is a series of cantos of raw grief. He asks the trees, the river, the animals where she went. He accuses himself of the ultimate failure — he could not protect his wife. The grief is absolute, nearly unhinged.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXII": {
+          "text": "When Rama returns to Panchavati and finds Sita gone, there is a series of cantos of raw grief. He asks the trees, the river, the animals where she went. He accuses himself of the ultimate failure — he could not protect his wife. The grief is absolute, nearly unhinged.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXIII": {
+          "text": "When Rama returns to Panchavati and finds Sita gone, there is a series of cantos of raw grief. He asks the trees, the river, the animals where she went. He accuses himself of the ultimate failure — he could not protect his wife. The grief is absolute, nearly unhinged.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXIV": {
+          "text": "When Rama returns to Panchavati and finds Sita gone, there is a series of cantos of raw grief. He asks the trees, the river, the animals where she went. He accuses himself of the ultimate failure — he could not protect his wife. The grief is absolute, nearly unhinged.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXV": {
+          "text": "When Rama returns to Panchavati and finds Sita gone, there is a series of cantos of raw grief. He asks the trees, the river, the animals where she went. He accuses himself of the ultimate failure — he could not protect his wife. The grief is absolute, nearly unhinged.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXVIII": {
+          "text": "Rama and Lakshmana find the dying Jatayu. The old vulture has held onto life specifically to tell Rama who took Sita and where she was taken. After delivering his message, Jatayu dies. Rama performs the funeral rites himself — treating the bird like a member of his own family.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXIX": {
+          "text": "Rama and Lakshmana find the dying Jatayu. The old vulture has held onto life specifically to tell Rama who took Sita and where she was taken. After delivering his message, Jatayu dies. Rama performs the funeral rites himself — treating the bird like a member of his own family.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXX": {
+          "text": "They encounter Kabandha, a headless demon with arms of enormous reach. This too is a cursed celestial being — Indra struck him with a thunderbolt that drove his head into his torso as punishment for arrogance. He can only be freed by being killed and cremated by Rama. After cremation, Kabandha's spirit rises in beautiful form and tells Rama: \"Go south. Find Sugriva, the monkey-king. He will help you find Sita.\"",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXXI": {
+          "text": "They encounter Kabandha, a headless demon with arms of enormous reach. This too is a cursed celestial being — Indra struck him with a thunderbolt that drove his head into his torso as punishment for arrogance. He can only be freed by being killed and cremated by Rama. After cremation, Kabandha's spirit rises in beautiful form and tells Rama: \"Go south. Find Sugriva, the monkey-king. He will help you find Sita.\"",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXXII": {
+          "text": "They encounter Kabandha, a headless demon with arms of enormous reach. This too is a cursed celestial being — Indra struck him with a thunderbolt that drove his head into his torso as punishment for arrogance. He can only be freed by being killed and cremated by Rama. After cremation, Kabandha's spirit rises in beautiful form and tells Rama: \"Go south. Find Sugriva, the monkey-king. He will help you find Sita.\"",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXXIII": {
+          "text": "They encounter Kabandha, a headless demon with arms of enormous reach. This too is a cursed celestial being — Indra struck him with a thunderbolt that drove his head into his torso as punishment for arrogance. He can only be freed by being killed and cremated by Rama. After cremation, Kabandha's spirit rises in beautiful form and tells Rama: \"Go south. Find Sugriva, the monkey-king. He will help you find Sita.\"",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXXIV": {
+          "text": "They encounter Kabandha, a headless demon with arms of enormous reach. This too is a cursed celestial being — Indra struck him with a thunderbolt that drove his head into his torso as punishment for arrogance. He can only be freed by being killed and cremated by Rama. After cremation, Kabandha's spirit rises in beautiful form and tells Rama: \"Go south. Find Sugriva, the monkey-king. He will help you find Sita.\"",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXXV": {
+          "text": "Rama visits the hermitage of Shabari (Savari), a devoted old woman of low caste who had spent her entire life waiting for Rama's visit, as her guru had prophesied. She tastes every fruit before offering it to Rama — to make sure none are bitter — an act of devotion so complete that the text gives it special honor. Rama accepts her offerings without hesitation.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXXVI": {
+          "text": "Rama and Lakshmana reach the beautiful lake Pampa (near modern Hampi, Karnataka). The beauty of the spring landscape makes Rama's grief more acute. Lakshmana gently urges him forward: Kishkindha is near.\n\n---\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        }
+      }
+    },
+    "IV": {
+      "intro": "What this book is about: Rama forms an alliance with Sugriva, the exiled monkey-king, defeats his usurping brother Vali, restores Sugriva to his throne, and organizes the great search for Sita. The book is about strategy, friendship, loyalty — and the problematic episode of Vali's death, which remains one of the most debated episodes in the epic.\n\n---",
+      "cantoMap": {
+        "I": {
+          "text": "Arriving at Lake Pampa, Rama is overwhelmed by the spring beauty and devastated that Sita is not here to see it. Lakshmana counsels courage and forward motion.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "II": {
+          "text": "Sugriva, hiding on Mount Rishyamukha (which is protected from Vali by a curse), sees the two armed men approaching and is afraid — thinking Vali has sent assassins. He sends Hanuman to investigate.\n\nHanuman disguises himself as a brahmin and approaches Rama and Lakshmana. He speaks with such grace, intelligence, and eloquence that Rama says to Lakshmana: \"No one with poor training in the Vedas and grammar could speak like this. This person's teacher was excellent. There is no fault in his face, eyes, forehead, or voice. Even an enemy, hearing him, would lay down his arms.\"",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "III": {
+          "text": "Sugriva, hiding on Mount Rishyamukha (which is protected from Vali by a curse), sees the two armed men approaching and is afraid — thinking Vali has sent assassins. He sends Hanuman to investigate.\n\nHanuman disguises himself as a brahmin and approaches Rama and Lakshmana. He speaks with such grace, intelligence, and eloquence that Rama says to Lakshmana: \"No one with poor training in the Vedas and grammar could speak like this. This person's teacher was excellent. There is no fault in his face, eyes, forehead, or voice. Even an enemy, hearing him, would lay down his arms.\"",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "IV": {
+          "text": "The alliance is struck: Rama will kill Vali and restore Sugriva's throne and queen; Sugriva will mobilize all the monkeys of the world to search for Sita. Sugriva shows Rama the jewelry that Sita threw down as she was being carried away — and Rama recognizes it. This moment, when he holds Sita's ornaments, breaks him open. Lakshmana holds him as he weeps.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "V": {
+          "text": "The alliance is struck: Rama will kill Vali and restore Sugriva's throne and queen; Sugriva will mobilize all the monkeys of the world to search for Sita. Sugriva shows Rama the jewelry that Sita threw down as she was being carried away — and Rama recognizes it. This moment, when he holds Sita's ornaments, breaks him open. Lakshmana holds him as he weeps.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "VI": {
+          "text": "The alliance is struck: Rama will kill Vali and restore Sugriva's throne and queen; Sugriva will mobilize all the monkeys of the world to search for Sita. Sugriva shows Rama the jewelry that Sita threw down as she was being carried away — and Rama recognizes it. This moment, when he holds Sita's ornaments, breaks him open. Lakshmana holds him as he weeps.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "VII": {
+          "text": "The alliance is struck: Rama will kill Vali and restore Sugriva's throne and queen; Sugriva will mobilize all the monkeys of the world to search for Sita. Sugriva shows Rama the jewelry that Sita threw down as she was being carried away — and Rama recognizes it. This moment, when he holds Sita's ornaments, breaks him open. Lakshmana holds him as he weeps.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "VIII": {
+          "text": "The alliance is struck: Rama will kill Vali and restore Sugriva's throne and queen; Sugriva will mobilize all the monkeys of the world to search for Sita. Sugriva shows Rama the jewelry that Sita threw down as she was being carried away — and Rama recognizes it. This moment, when he holds Sita's ornaments, breaks him open. Lakshmana holds him as he weeps.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "IX": {
+          "text": "Vali and Sugriva were sons of Indra and the sun god respectively (in some traditions) — or both sons of the monkey king. Their rupture began when a demon named Mayavi challenged Vali. They pursued him into a cave. Sugriva waited outside. After a year, a stream of blood flowed out. Sugriva assumed Vali was dead, sealed the cave to stop the demon from escaping, and returned to rule Kishkindha. But Vali had killed Mayavi and emerged to find the throne taken and the cave sealed. Furious, he assumed Sugriva had betrayed him. He drove Sugriva out, took his wife Ruma, and condemned him to exile.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "X": {
+          "text": "Vali and Sugriva were sons of Indra and the sun god respectively (in some traditions) — or both sons of the monkey king. Their rupture began when a demon named Mayavi challenged Vali. They pursued him into a cave. Sugriva waited outside. After a year, a stream of blood flowed out. Sugriva assumed Vali was dead, sealed the cave to stop the demon from escaping, and returned to rule Kishkindha. But Vali had killed Mayavi and emerged to find the throne taken and the cave sealed. Furious, he assumed Sugriva had betrayed him. He drove Sugriva out, took his wife Ruma, and condemned him to exile.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XI": {
+          "text": "To prove his credentials to Sugriva, Rama demonstrates his power: he kicks the bones of the demon Dundubhi a great distance, then shoots a single arrow through seven palm trees, through a hill, and back to his quiver. These feats establish that Rama can kill Vali.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XII": {
+          "text": "To prove his credentials to Sugriva, Rama demonstrates his power: he kicks the bones of the demon Dundubhi a great distance, then shoots a single arrow through seven palm trees, through a hill, and back to his quiver. These feats establish that Rama can kill Vali.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XIV": {
+          "text": "Sugriva challenges Vali at the gates of Kishkindha. Vali accepts the fight. Rama, hidden in the trees, cannot shoot — the two brothers look identical. The fight ends, Sugriva flees beaten. Rama apologizes. A second challenge. This time Sugriva wears a garland of flowers so Rama can tell them apart. Vali falls with Rama's arrow in his back.\n\nVali, dying, confronts Rama with a powerful argument: \"What law permits you to kill a man who is fighting someone else? You are a king, sworn to dharma. I was not your enemy. This was cowardly.\"\n\nRama's reply is long and carefully argued: Sugriva is Rama's ally, bound by a pact; Vali violated the law by taking his brother's wife; kings have the right to punish wrongdoers even by indirect means; besides, a hunter need not face an animal directly to kill it.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XV": {
+          "text": "Sugriva challenges Vali at the gates of Kishkindha. Vali accepts the fight. Rama, hidden in the trees, cannot shoot — the two brothers look identical. The fight ends, Sugriva flees beaten. Rama apologizes. A second challenge. This time Sugriva wears a garland of flowers so Rama can tell them apart. Vali falls with Rama's arrow in his back.\n\nVali, dying, confronts Rama with a powerful argument: \"What law permits you to kill a man who is fighting someone else? You are a king, sworn to dharma. I was not your enemy. This was cowardly.\"\n\nRama's reply is long and carefully argued: Sugriva is Rama's ally, bound by a pact; Vali violated the law by taking his brother's wife; kings have the right to punish wrongdoers even by indirect means; besides, a hunter need not face an animal directly to kill it.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XVI": {
+          "text": "Sugriva challenges Vali at the gates of Kishkindha. Vali accepts the fight. Rama, hidden in the trees, cannot shoot — the two brothers look identical. The fight ends, Sugriva flees beaten. Rama apologizes. A second challenge. This time Sugriva wears a garland of flowers so Rama can tell them apart. Vali falls with Rama's arrow in his back.\n\nVali, dying, confronts Rama with a powerful argument: \"What law permits you to kill a man who is fighting someone else? You are a king, sworn to dharma. I was not your enemy. This was cowardly.\"\n\nRama's reply is long and carefully argued: Sugriva is Rama's ally, bound by a pact; Vali violated the law by taking his brother's wife; kings have the right to punish wrongdoers even by indirect means; besides, a hunter need not face an animal directly to kill it.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XVII": {
+          "text": "Sugriva challenges Vali at the gates of Kishkindha. Vali accepts the fight. Rama, hidden in the trees, cannot shoot — the two brothers look identical. The fight ends, Sugriva flees beaten. Rama apologizes. A second challenge. This time Sugriva wears a garland of flowers so Rama can tell them apart. Vali falls with Rama's arrow in his back.\n\nVali, dying, confronts Rama with a powerful argument: \"What law permits you to kill a man who is fighting someone else? You are a king, sworn to dharma. I was not your enemy. This was cowardly.\"\n\nRama's reply is long and carefully argued: Sugriva is Rama's ally, bound by a pact; Vali violated the law by taking his brother's wife; kings have the right to punish wrongdoers even by indirect means; besides, a hunter need not face an animal directly to kill it.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XVIII": {
+          "text": "Sugriva challenges Vali at the gates of Kishkindha. Vali accepts the fight. Rama, hidden in the trees, cannot shoot — the two brothers look identical. The fight ends, Sugriva flees beaten. Rama apologizes. A second challenge. This time Sugriva wears a garland of flowers so Rama can tell them apart. Vali falls with Rama's arrow in his back.\n\nVali, dying, confronts Rama with a powerful argument: \"What law permits you to kill a man who is fighting someone else? You are a king, sworn to dharma. I was not your enemy. This was cowardly.\"\n\nRama's reply is long and carefully argued: Sugriva is Rama's ally, bound by a pact; Vali violated the law by taking his brother's wife; kings have the right to punish wrongdoers even by indirect means; besides, a hunter need not face an animal directly to kill it.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XIX": {
+          "text": "Vali's wife Tara weeps over his body in one of the most beautiful lament passages in the epic. Her grief is not bitter — it is profound and full of understanding. She accepts the situation with dignity. The funeral is performed.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XX": {
+          "text": "Vali's wife Tara weeps over his body in one of the most beautiful lament passages in the epic. Her grief is not bitter — it is profound and full of understanding. She accepts the situation with dignity. The funeral is performed.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXI": {
+          "text": "Vali's wife Tara weeps over his body in one of the most beautiful lament passages in the epic. Her grief is not bitter — it is profound and full of understanding. She accepts the situation with dignity. The funeral is performed.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXII": {
+          "text": "Vali's wife Tara weeps over his body in one of the most beautiful lament passages in the epic. Her grief is not bitter — it is profound and full of understanding. She accepts the situation with dignity. The funeral is performed.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXIII": {
+          "text": "Vali's wife Tara weeps over his body in one of the most beautiful lament passages in the epic. Her grief is not bitter — it is profound and full of understanding. She accepts the situation with dignity. The funeral is performed.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXIV": {
+          "text": "Vali's wife Tara weeps over his body in one of the most beautiful lament passages in the epic. Her grief is not bitter — it is profound and full of understanding. She accepts the situation with dignity. The funeral is performed.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXV": {
+          "text": "Sugriva is crowned king of Kishkindha. The rains begin — and the rainy season is not a time for military campaigns. Rama and Lakshmana withdraw to Mount Prasravana to wait four months until autumn.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXVI": {
+          "text": "Sugriva is crowned king of Kishkindha. The rains begin — and the rainy season is not a time for military campaigns. Rama and Lakshmana withdraw to Mount Prasravana to wait four months until autumn.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXVII": {
+          "text": "Autumn arrives. Sugriva has become absorbed in his restored pleasures — wine, women, his reclaimed queen, the comforts of kingship. He has not moved on the search. Lakshmana, growing furious at the delay, marches into Kishkindha with his bow strung. Tara intercepts him and calms him — she tells him Sugriva has simply become overwhelmed by restored happiness after years of exile.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXVIII": {
+          "text": "Autumn arrives. Sugriva has become absorbed in his restored pleasures — wine, women, his reclaimed queen, the comforts of kingship. He has not moved on the search. Lakshmana, growing furious at the delay, marches into Kishkindha with his bow strung. Tara intercepts him and calms him — she tells him Sugriva has simply become overwhelmed by restored happiness after years of exile.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXIX": {
+          "text": "Autumn arrives. Sugriva has become absorbed in his restored pleasures — wine, women, his reclaimed queen, the comforts of kingship. He has not moved on the search. Lakshmana, growing furious at the delay, marches into Kishkindha with his bow strung. Tara intercepts him and calms him — she tells him Sugriva has simply become overwhelmed by restored happiness after years of exile.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXX": {
+          "text": "Autumn arrives. Sugriva has become absorbed in his restored pleasures — wine, women, his reclaimed queen, the comforts of kingship. He has not moved on the search. Lakshmana, growing furious at the delay, marches into Kishkindha with his bow strung. Tara intercepts him and calms him — she tells him Sugriva has simply become overwhelmed by restored happiness after years of exile.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXI": {
+          "text": "Autumn arrives. Sugriva has become absorbed in his restored pleasures — wine, women, his reclaimed queen, the comforts of kingship. He has not moved on the search. Lakshmana, growing furious at the delay, marches into Kishkindha with his bow strung. Tara intercepts him and calms him — she tells him Sugriva has simply become overwhelmed by restored happiness after years of exile.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXII": {
+          "text": "Autumn arrives. Sugriva has become absorbed in his restored pleasures — wine, women, his reclaimed queen, the comforts of kingship. He has not moved on the search. Lakshmana, growing furious at the delay, marches into Kishkindha with his bow strung. Tara intercepts him and calms him — she tells him Sugriva has simply become overwhelmed by restored happiness after years of exile.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXVI": {
+          "text": "Chastened, Sugriva apologizes to Rama and throws himself into action. He summons the monkey-hosts from the four directions — north, south, east, west — and the response is overwhelming: millions of monkeys of every kind, from every forest and mountain in the world.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXVII": {
+          "text": "Sugriva sends search parties in all four directions with detailed geographic instructions — Valmiki names real places, rivers, mountains, and coastlines with such specificity that this has been used by scholars to map ancient Indian geography. The southern army under Angad and Hanuman is given the furthest and most important directive: search as far as the southern ocean.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXVIII": {
+          "text": "Sugriva sends search parties in all four directions with detailed geographic instructions — Valmiki names real places, rivers, mountains, and coastlines with such specificity that this has been used by scholars to map ancient Indian geography. The southern army under Angad and Hanuman is given the furthest and most important directive: search as far as the southern ocean.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXIX": {
+          "text": "Sugriva sends search parties in all four directions with detailed geographic instructions — Valmiki names real places, rivers, mountains, and coastlines with such specificity that this has been used by scholars to map ancient Indian geography. The southern army under Angad and Hanuman is given the furthest and most important directive: search as far as the southern ocean.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XL": {
+          "text": "Sugriva sends search parties in all four directions with detailed geographic instructions — Valmiki names real places, rivers, mountains, and coastlines with such specificity that this has been used by scholars to map ancient Indian geography. The southern army under Angad and Hanuman is given the furthest and most important directive: search as far as the southern ocean.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLI": {
+          "text": "Sugriva sends search parties in all four directions with detailed geographic instructions — Valmiki names real places, rivers, mountains, and coastlines with such specificity that this has been used by scholars to map ancient Indian geography. The southern army under Angad and Hanuman is given the furthest and most important directive: search as far as the southern ocean.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLII": {
+          "text": "Sugriva sends search parties in all four directions with detailed geographic instructions — Valmiki names real places, rivers, mountains, and coastlines with such specificity that this has been used by scholars to map ancient Indian geography. The southern army under Angad and Hanuman is given the furthest and most important directive: search as far as the southern ocean.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLIII": {
+          "text": "Sugriva sends search parties in all four directions with detailed geographic instructions — Valmiki names real places, rivers, mountains, and coastlines with such specificity that this has been used by scholars to map ancient Indian geography. The southern army under Angad and Hanuman is given the furthest and most important directive: search as far as the southern ocean.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLIV": {
+          "text": "Rama gives Hanuman his signet ring as a token of identification for Sita. This small object will become the most important item in the next book.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLV": {
+          "text": "Sugriva sends search parties in all four directions with detailed geographic instructions — Valmiki names real places, rivers, mountains, and coastlines with such specificity that this has been used by scholars to map ancient Indian geography. The southern army under Angad and Hanuman is given the furthest and most important directive: search as far as the southern ocean.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLVIII": {
+          "text": "The southern army runs out of time and is near despair at the edge of the ocean with no news. Angad speaks of giving up. Hanuman urges resolve. At this point of crisis, the vulture Sampati — brother of Jatayu, who lost his own wings flying too close to the sun — tells them he has seen from his perch the vast winged demon carrying a woman, headed south over the ocean. Lanka is one hundred yojanas (roughly 900 miles in the text's geography) across the sea.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLIX": {
+          "text": "The southern army runs out of time and is near despair at the edge of the ocean with no news. Angad speaks of giving up. Hanuman urges resolve. At this point of crisis, the vulture Sampati — brother of Jatayu, who lost his own wings flying too close to the sun — tells them he has seen from his perch the vast winged demon carrying a woman, headed south over the ocean. Lanka is one hundred yojanas (roughly 900 miles in the text's geography) across the sea.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "L": {
+          "text": "The southern army runs out of time and is near despair at the edge of the ocean with no news. Angad speaks of giving up. Hanuman urges resolve. At this point of crisis, the vulture Sampati — brother of Jatayu, who lost his own wings flying too close to the sun — tells them he has seen from his perch the vast winged demon carrying a woman, headed south over the ocean. Lanka is one hundred yojanas (roughly 900 miles in the text's geography) across the sea.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LI": {
+          "text": "The southern army runs out of time and is near despair at the edge of the ocean with no news. Angad speaks of giving up. Hanuman urges resolve. At this point of crisis, the vulture Sampati — brother of Jatayu, who lost his own wings flying too close to the sun — tells them he has seen from his perch the vast winged demon carrying a woman, headed south over the ocean. Lanka is one hundred yojanas (roughly 900 miles in the text's geography) across the sea.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LII": {
+          "text": "The southern army runs out of time and is near despair at the edge of the ocean with no news. Angad speaks of giving up. Hanuman urges resolve. At this point of crisis, the vulture Sampati — brother of Jatayu, who lost his own wings flying too close to the sun — tells them he has seen from his perch the vast winged demon carrying a woman, headed south over the ocean. Lanka is one hundred yojanas (roughly 900 miles in the text's geography) across the sea.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LIII": {
+          "text": "The southern army runs out of time and is near despair at the edge of the ocean with no news. Angad speaks of giving up. Hanuman urges resolve. At this point of crisis, the vulture Sampati — brother of Jatayu, who lost his own wings flying too close to the sun — tells them he has seen from his perch the vast winged demon carrying a woman, headed south over the ocean. Lanka is one hundred yojanas (roughly 900 miles in the text's geography) across the sea.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LIV": {
+          "text": "The southern army runs out of time and is near despair at the edge of the ocean with no news. Angad speaks of giving up. Hanuman urges resolve. At this point of crisis, the vulture Sampati — brother of Jatayu, who lost his own wings flying too close to the sun — tells them he has seen from his perch the vast winged demon carrying a woman, headed south over the ocean. Lanka is one hundred yojanas (roughly 900 miles in the text's geography) across the sea.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LV": {
+          "text": "The southern army runs out of time and is near despair at the edge of the ocean with no news. Angad speaks of giving up. Hanuman urges resolve. At this point of crisis, the vulture Sampati — brother of Jatayu, who lost his own wings flying too close to the sun — tells them he has seen from his perch the vast winged demon carrying a woman, headed south over the ocean. Lanka is one hundred yojanas (roughly 900 miles in the text's geography) across the sea.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LVI": {
+          "text": "The southern army runs out of time and is near despair at the edge of the ocean with no news. Angad speaks of giving up. Hanuman urges resolve. At this point of crisis, the vulture Sampati — brother of Jatayu, who lost his own wings flying too close to the sun — tells them he has seen from his perch the vast winged demon carrying a woman, headed south over the ocean. Lanka is one hundred yojanas (roughly 900 miles in the text's geography) across the sea.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LVII": {
+          "text": "The southern army runs out of time and is near despair at the edge of the ocean with no news. Angad speaks of giving up. Hanuman urges resolve. At this point of crisis, the vulture Sampati — brother of Jatayu, who lost his own wings flying too close to the sun — tells them he has seen from his perch the vast winged demon carrying a woman, headed south over the ocean. Lanka is one hundred yojanas (roughly 900 miles in the text's geography) across the sea.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LVIII": {
+          "text": "The southern army runs out of time and is near despair at the edge of the ocean with no news. Angad speaks of giving up. Hanuman urges resolve. At this point of crisis, the vulture Sampati — brother of Jatayu, who lost his own wings flying too close to the sun — tells them he has seen from his perch the vast winged demon carrying a woman, headed south over the ocean. Lanka is one hundred yojanas (roughly 900 miles in the text's geography) across the sea.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LIX": {
+          "text": "The southern army runs out of time and is near despair at the edge of the ocean with no news. Angad speaks of giving up. Hanuman urges resolve. At this point of crisis, the vulture Sampati — brother of Jatayu, who lost his own wings flying too close to the sun — tells them he has seen from his perch the vast winged demon carrying a woman, headed south over the ocean. Lanka is one hundred yojanas (roughly 900 miles in the text's geography) across the sea.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LX": {
+          "text": "The southern army runs out of time and is near despair at the edge of the ocean with no news. Angad speaks of giving up. Hanuman urges resolve. At this point of crisis, the vulture Sampati — brother of Jatayu, who lost his own wings flying too close to the sun — tells them he has seen from his perch the vast winged demon carrying a woman, headed south over the ocean. Lanka is one hundred yojanas (roughly 900 miles in the text's geography) across the sea.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXI": {
+          "text": "The southern army runs out of time and is near despair at the edge of the ocean with no news. Angad speaks of giving up. Hanuman urges resolve. At this point of crisis, the vulture Sampati — brother of Jatayu, who lost his own wings flying too close to the sun — tells them he has seen from his perch the vast winged demon carrying a woman, headed south over the ocean. Lanka is one hundred yojanas (roughly 900 miles in the text's geography) across the sea.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXII": {
+          "text": "The southern army runs out of time and is near despair at the edge of the ocean with no news. Angad speaks of giving up. Hanuman urges resolve. At this point of crisis, the vulture Sampati — brother of Jatayu, who lost his own wings flying too close to the sun — tells them he has seen from his perch the vast winged demon carrying a woman, headed south over the ocean. Lanka is one hundred yojanas (roughly 900 miles in the text's geography) across the sea.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXIII": {
+          "text": "The southern army runs out of time and is near despair at the edge of the ocean with no news. Angad speaks of giving up. Hanuman urges resolve. At this point of crisis, the vulture Sampati — brother of Jatayu, who lost his own wings flying too close to the sun — tells them he has seen from his perch the vast winged demon carrying a woman, headed south over the ocean. Lanka is one hundred yojanas (roughly 900 miles in the text's geography) across the sea.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXIV": {
+          "text": "The southern army runs out of time and is near despair at the edge of the ocean with no news. Angad speaks of giving up. Hanuman urges resolve. At this point of crisis, the vulture Sampati — brother of Jatayu, who lost his own wings flying too close to the sun — tells them he has seen from his perch the vast winged demon carrying a woman, headed south over the ocean. Lanka is one hundred yojanas (roughly 900 miles in the text's geography) across the sea.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXV": {
+          "text": "The southern army runs out of time and is near despair at the edge of the ocean with no news. Angad speaks of giving up. Hanuman urges resolve. At this point of crisis, the vulture Sampati — brother of Jatayu, who lost his own wings flying too close to the sun — tells them he has seen from his perch the vast winged demon carrying a woman, headed south over the ocean. Lanka is one hundred yojanas (roughly 900 miles in the text's geography) across the sea.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXVI": {
+          "text": "The southern army faces the ocean: none can leap it. One by one the monkeys assess their own limits. Angad can jump across but not back. Jambavan, the ancient bear, could once have leapt it easily — but he is too old. He turns to Hanuman, who has been sitting quietly. And he says: \"Son of the Wind, why are you silent? You alone can do this. You are the equal of your father Vayu, who moves without obstruction through all the worlds.\"\n\nAnd with these words, Hanuman is recalled to himself.\n\n---\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        }
+      }
+    },
+    "V": {
+      "intro": "What this book is about: Hanuman's solo mission — he leaps the ocean, enters Lanka in disguise, searches the entire city, finds Sita, delivers Rama's message, makes himself known to Ravana, gets his tail set on fire, burns half of Lanka, and leaps back to report success. This is the most beloved book of the entire Ramayana — read by itself as a complete devotional text, especially in South India, where it is considered supremely auspicious.\n\nWhy is it called Sundara (Beautiful)? Multiple explanations: for the beauty of Hanuman's deeds; for the beauty of Ashoka Vatika where Sita is held; for the beauty of the language Valmiki uses; or because Hanuman himself is beautiful in his devotion.\n\n---",
+      "cantoMap": {
+        "I": {
+          "text": "Hanuman grows to cosmic size on Mount Mahendra, addresses the monkeys, and leaps. The description is magnificent — the earth shakes, trees are uprooted by the shockwave of his launch, the ocean parts below him. He is challenged in midair by the mountain Mainaka, who offers him rest — but Hanuman touches the mountain's peak respectfully and flies on: there is no time for rest. A sea-demon tries to swallow him; he shrinks to the size of a thumb, enters her mouth, and escapes. The goddess Simhika tries to seize him; he kills her. Then Lanka appears on the horizon.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "II": {
+          "text": "Landing on a mountain above Lanka at night, Hanuman shrinks to the size of a cat and enters the city. He observes its extraordinary riches, its demon population, its military might. He searches palaces, courtyards, gardens, and groves. He finds Ravana's inner apartments and observes the demon king sleeping surrounded by women — but Sita is not among them. He is close to despair. Then he finds the Ashoka grove.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "III": {
+          "text": "Landing on a mountain above Lanka at night, Hanuman shrinks to the size of a cat and enters the city. He observes its extraordinary riches, its demon population, its military might. He searches palaces, courtyards, gardens, and groves. He finds Ravana's inner apartments and observes the demon king sleeping surrounded by women — but Sita is not among them. He is close to despair. Then he finds the Ashoka grove.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "IV": {
+          "text": "Landing on a mountain above Lanka at night, Hanuman shrinks to the size of a cat and enters the city. He observes its extraordinary riches, its demon population, its military might. He searches palaces, courtyards, gardens, and groves. He finds Ravana's inner apartments and observes the demon king sleeping surrounded by women — but Sita is not among them. He is close to despair. Then he finds the Ashoka grove.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "V": {
+          "text": "Landing on a mountain above Lanka at night, Hanuman shrinks to the size of a cat and enters the city. He observes its extraordinary riches, its demon population, its military might. He searches palaces, courtyards, gardens, and groves. He finds Ravana's inner apartments and observes the demon king sleeping surrounded by women — but Sita is not among them. He is close to despair. Then he finds the Ashoka grove.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "VI": {
+          "text": "Landing on a mountain above Lanka at night, Hanuman shrinks to the size of a cat and enters the city. He observes its extraordinary riches, its demon population, its military might. He searches palaces, courtyards, gardens, and groves. He finds Ravana's inner apartments and observes the demon king sleeping surrounded by women — but Sita is not among them. He is close to despair. Then he finds the Ashoka grove.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "VII": {
+          "text": "Landing on a mountain above Lanka at night, Hanuman shrinks to the size of a cat and enters the city. He observes its extraordinary riches, its demon population, its military might. He searches palaces, courtyards, gardens, and groves. He finds Ravana's inner apartments and observes the demon king sleeping surrounded by women — but Sita is not among them. He is close to despair. Then he finds the Ashoka grove.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "VIII": {
+          "text": "Landing on a mountain above Lanka at night, Hanuman shrinks to the size of a cat and enters the city. He observes its extraordinary riches, its demon population, its military might. He searches palaces, courtyards, gardens, and groves. He finds Ravana's inner apartments and observes the demon king sleeping surrounded by women — but Sita is not among them. He is close to despair. Then he finds the Ashoka grove.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "IX": {
+          "text": "Landing on a mountain above Lanka at night, Hanuman shrinks to the size of a cat and enters the city. He observes its extraordinary riches, its demon population, its military might. He searches palaces, courtyards, gardens, and groves. He finds Ravana's inner apartments and observes the demon king sleeping surrounded by women — but Sita is not among them. He is close to despair. Then he finds the Ashoka grove.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "X": {
+          "text": "Landing on a mountain above Lanka at night, Hanuman shrinks to the size of a cat and enters the city. He observes its extraordinary riches, its demon population, its military might. He searches palaces, courtyards, gardens, and groves. He finds Ravana's inner apartments and observes the demon king sleeping surrounded by women — but Sita is not among them. He is close to despair. Then he finds the Ashoka grove.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XI": {
+          "text": "Landing on a mountain above Lanka at night, Hanuman shrinks to the size of a cat and enters the city. He observes its extraordinary riches, its demon population, its military might. He searches palaces, courtyards, gardens, and groves. He finds Ravana's inner apartments and observes the demon king sleeping surrounded by women — but Sita is not among them. He is close to despair. Then he finds the Ashoka grove.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XII": {
+          "text": "Landing on a mountain above Lanka at night, Hanuman shrinks to the size of a cat and enters the city. He observes its extraordinary riches, its demon population, its military might. He searches palaces, courtyards, gardens, and groves. He finds Ravana's inner apartments and observes the demon king sleeping surrounded by women — but Sita is not among them. He is close to despair. Then he finds the Ashoka grove.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XIII": {
+          "text": "Landing on a mountain above Lanka at night, Hanuman shrinks to the size of a cat and enters the city. He observes its extraordinary riches, its demon population, its military might. He searches palaces, courtyards, gardens, and groves. He finds Ravana's inner apartments and observes the demon king sleeping surrounded by women — but Sita is not among them. He is close to despair. Then he finds the Ashoka grove.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XIV": {
+          "text": "Deep in the Ashoka grove, Hanuman finds Sita — thin, pale, dressed in a single soiled garment, surrounded by demonesses who guard and threaten her. She is described as a lamp about to go out, a fire smothered by smoke, a lotus crushed by cold, a river shrunk to a trickle. Yet she is unbowed.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XV": {
+          "text": "Deep in the Ashoka grove, Hanuman finds Sita — thin, pale, dressed in a single soiled garment, surrounded by demonesses who guard and threaten her. She is described as a lamp about to go out, a fire smothered by smoke, a lotus crushed by cold, a river shrunk to a trickle. Yet she is unbowed.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XVI": {
+          "text": "Deep in the Ashoka grove, Hanuman finds Sita — thin, pale, dressed in a single soiled garment, surrounded by demonesses who guard and threaten her. She is described as a lamp about to go out, a fire smothered by smoke, a lotus crushed by cold, a river shrunk to a trickle. Yet she is unbowed.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XVIII": {
+          "text": "Ravana arrives in the grove in full splendor with his hundred wives, attended by torches and musicians, and again attempts to seduce Sita. He offers her everything in the world. She holds a blade of grass between herself and him — the famous image — and refuses with absolute clarity and contempt.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XIX": {
+          "text": "Ravana arrives in the grove in full splendor with his hundred wives, attended by torches and musicians, and again attempts to seduce Sita. He offers her everything in the world. She holds a blade of grass between herself and him — the famous image — and refuses with absolute clarity and contempt.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XX": {
+          "text": "Ravana arrives in the grove in full splendor with his hundred wives, attended by torches and musicians, and again attempts to seduce Sita. He offers her everything in the world. She holds a blade of grass between herself and him — the famous image — and refuses with absolute clarity and contempt.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXI": {
+          "text": "Ravana arrives in the grove in full splendor with his hundred wives, attended by torches and musicians, and again attempts to seduce Sita. He offers her everything in the world. She holds a blade of grass between herself and him — the famous image — and refuses with absolute clarity and contempt.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXII": {
+          "text": "Ravana arrives in the grove in full splendor with his hundred wives, attended by torches and musicians, and again attempts to seduce Sita. He offers her everything in the world. She holds a blade of grass between herself and him — the famous image — and refuses with absolute clarity and contempt.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXIII": {
+          "text": "The demonesses threaten Sita with torture and death. She responds calmly and then, after they leave, weeps in private — her grief pure and quiet, unlike the demons' noise.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXIV": {
+          "text": "The demonesses threaten Sita with torture and death. She responds calmly and then, after they leave, weeps in private — her grief pure and quiet, unlike the demons' noise.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXV": {
+          "text": "The demonesses threaten Sita with torture and death. She responds calmly and then, after they leave, weeps in private — her grief pure and quiet, unlike the demons' noise.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXVI": {
+          "text": "The demonesses threaten Sita with torture and death. She responds calmly and then, after they leave, weeps in private — her grief pure and quiet, unlike the demons' noise.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXVII": {
+          "text": "One demoness among Sita's guards, Trijata, is noble-spirited. She has a dream that is a precise prophecy: Rama will come, Lanka will be burned, Ravana will die, and Sita will be reunited with her husband. Trijata calms the other demonesses.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXX": {
+          "text": "Hanuman climbs into the branches of the tree above Sita and softly sings the story of Rama. Sita is startled and disbelieving — is this a dream? An illusion sent by Ravana? How can a monkey know Rama's story? How can a monkey even speak? She tests him with questions only Rama would know the answers to. Hanuman descends and shows her the signet ring.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXI": {
+          "text": "Hanuman climbs into the branches of the tree above Sita and softly sings the story of Rama. Sita is startled and disbelieving — is this a dream? An illusion sent by Ravana? How can a monkey know Rama's story? How can a monkey even speak? She tests him with questions only Rama would know the answers to. Hanuman descends and shows her the signet ring.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXII": {
+          "text": "Hanuman climbs into the branches of the tree above Sita and softly sings the story of Rama. Sita is startled and disbelieving — is this a dream? An illusion sent by Ravana? How can a monkey know Rama's story? How can a monkey even speak? She tests him with questions only Rama would know the answers to. Hanuman descends and shows her the signet ring.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXIII": {
+          "text": "Hanuman climbs into the branches of the tree above Sita and softly sings the story of Rama. Sita is startled and disbelieving — is this a dream? An illusion sent by Ravana? How can a monkey know Rama's story? How can a monkey even speak? She tests him with questions only Rama would know the answers to. Hanuman descends and shows her the signet ring.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXIV": {
+          "text": "Hanuman climbs into the branches of the tree above Sita and softly sings the story of Rama. Sita is startled and disbelieving — is this a dream? An illusion sent by Ravana? How can a monkey know Rama's story? How can a monkey even speak? She tests him with questions only Rama would know the answers to. Hanuman descends and shows her the signet ring.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXV": {
+          "text": "Hanuman climbs into the branches of the tree above Sita and softly sings the story of Rama. Sita is startled and disbelieving — is this a dream? An illusion sent by Ravana? How can a monkey know Rama's story? How can a monkey even speak? She tests him with questions only Rama would know the answers to. Hanuman descends and shows her the signet ring.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXVI": {
+          "text": "Sita holds the ring and weeps. \"This is my husband's ring. It is as if Rama himself has come.\" She gives Hanuman her own crest jewel (chudamani) to take back to Rama as a token of recognition.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXVII": {
+          "text": "Sita's message to Rama: I am alive. I have been keeping count of the days. Ravana gave me a deadline — one more month. After that, he has threatened to kill me. Come quickly.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXVIII": {
+          "text": "Sita's message to Rama: I am alive. I have been keeping count of the days. Ravana gave me a deadline — one more month. After that, he has threatened to kill me. Come quickly.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLI": {
+          "text": "Before leaving, Hanuman decides to announce his presence dramatically. He destroys the Ashoka grove — uproots trees, smashes statues, kills every demon he encounters. Ravana's army comes. Hanuman defeats them, killing thousands. He allows himself to be captured — he wants to speak to Ravana directly.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLII": {
+          "text": "Before leaving, Hanuman decides to announce his presence dramatically. He destroys the Ashoka grove — uproots trees, smashes statues, kills every demon he encounters. Ravana's army comes. Hanuman defeats them, killing thousands. He allows himself to be captured — he wants to speak to Ravana directly.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLIII": {
+          "text": "Before leaving, Hanuman decides to announce his presence dramatically. He destroys the Ashoka grove — uproots trees, smashes statues, kills every demon he encounters. Ravana's army comes. Hanuman defeats them, killing thousands. He allows himself to be captured — he wants to speak to Ravana directly.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLIV": {
+          "text": "Before leaving, Hanuman decides to announce his presence dramatically. He destroys the Ashoka grove — uproots trees, smashes statues, kills every demon he encounters. Ravana's army comes. Hanuman defeats them, killing thousands. He allows himself to be captured — he wants to speak to Ravana directly.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLV": {
+          "text": "Before leaving, Hanuman decides to announce his presence dramatically. He destroys the Ashoka grove — uproots trees, smashes statues, kills every demon he encounters. Ravana's army comes. Hanuman defeats them, killing thousands. He allows himself to be captured — he wants to speak to Ravana directly.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLVI": {
+          "text": "Before leaving, Hanuman decides to announce his presence dramatically. He destroys the Ashoka grove — uproots trees, smashes statues, kills every demon he encounters. Ravana's army comes. Hanuman defeats them, killing thousands. He allows himself to be captured — he wants to speak to Ravana directly.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLVII": {
+          "text": "Before leaving, Hanuman decides to announce his presence dramatically. He destroys the Ashoka grove — uproots trees, smashes statues, kills every demon he encounters. Ravana's army comes. Hanuman defeats them, killing thousands. He allows himself to be captured — he wants to speak to Ravana directly.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLIX": {
+          "text": "Brought before Ravana, Hanuman delivers a speech of extraordinary boldness: \"I am Rama's messenger. I have seen Sita. Return her now, before it is too late. Rama's army will come, and your Lanka will be destroyed. You have not sinned against a mortal — you have sinned against Vishnu.\"\n\nRavana orders Hanuman's death. His younger brother Vibhishana (the one righteous member of Ravana's family) intervenes: killing a messenger is against all codes of conduct. Ravana changes the sentence — set the monkey's tail on fire.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "L": {
+          "text": "Brought before Ravana, Hanuman delivers a speech of extraordinary boldness: \"I am Rama's messenger. I have seen Sita. Return her now, before it is too late. Rama's army will come, and your Lanka will be destroyed. You have not sinned against a mortal — you have sinned against Vishnu.\"\n\nRavana orders Hanuman's death. His younger brother Vibhishana (the one righteous member of Ravana's family) intervenes: killing a messenger is against all codes of conduct. Ravana changes the sentence — set the monkey's tail on fire.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LI": {
+          "text": "Brought before Ravana, Hanuman delivers a speech of extraordinary boldness: \"I am Rama's messenger. I have seen Sita. Return her now, before it is too late. Rama's army will come, and your Lanka will be destroyed. You have not sinned against a mortal — you have sinned against Vishnu.\"\n\nRavana orders Hanuman's death. His younger brother Vibhishana (the one righteous member of Ravana's family) intervenes: killing a messenger is against all codes of conduct. Ravana changes the sentence — set the monkey's tail on fire.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LII": {
+          "text": "Brought before Ravana, Hanuman delivers a speech of extraordinary boldness: \"I am Rama's messenger. I have seen Sita. Return her now, before it is too late. Rama's army will come, and your Lanka will be destroyed. You have not sinned against a mortal — you have sinned against Vishnu.\"\n\nRavana orders Hanuman's death. His younger brother Vibhishana (the one righteous member of Ravana's family) intervenes: killing a messenger is against all codes of conduct. Ravana changes the sentence — set the monkey's tail on fire.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LIII": {
+          "text": "Ravana's soldiers wrap cloth soaked in oil around Hanuman's tail and set it alight. Hanuman immediately grows enormous, breaks free of his bonds, and — leaping from rooftop to rooftop — sets all of Lanka on fire. A city built of gold becomes a city of fire. When he is done, Hanuman realizes with sudden terror: what if the fire reached Sita? He flies back to the Ashoka grove — and finds her untouched, as if protected by Rama's virtue itself.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LIV": {
+          "text": "Ravana's soldiers wrap cloth soaked in oil around Hanuman's tail and set it alight. Hanuman immediately grows enormous, breaks free of his bonds, and — leaping from rooftop to rooftop — sets all of Lanka on fire. A city built of gold becomes a city of fire. When he is done, Hanuman realizes with sudden terror: what if the fire reached Sita? He flies back to the Ashoka grove — and finds her untouched, as if protected by Rama's virtue itself.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LV": {
+          "text": "Ravana's soldiers wrap cloth soaked in oil around Hanuman's tail and set it alight. Hanuman immediately grows enormous, breaks free of his bonds, and — leaping from rooftop to rooftop — sets all of Lanka on fire. A city built of gold becomes a city of fire. When he is done, Hanuman realizes with sudden terror: what if the fire reached Sita? He flies back to the Ashoka grove — and finds her untouched, as if protected by Rama's virtue itself.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LVI": {
+          "text": "Hanuman climbs Mount Arishta, takes one last look at Lanka — still burning — and leaps back across the ocean to the waiting army.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LVII": {
+          "text": "Hanuman climbs Mount Arishta, takes one last look at Lanka — still burning — and leaps back across the ocean to the waiting army.",
+          "keyIdea": null,
+          "inlineImage": null
+        }
+      }
+    },
+    "VI": {
+      "intro": "What this book is about: The full-scale war between Rama's army and Ravana's forces. The construction of the bridge, the siege of Lanka, the battles, the deaths of Lanka's great warriors, the ultimate single combat between Rama and Ravana, Sita's trial by fire, and the triumphant return to Ayodhya.\n\nCore theme: The final confrontation between dharma and adharma. Victory not through superior power alone, but through righteousness, strategy, and the accumulation of right action.\n\n---",
+      "cantoMap": {
+        "I": {
+          "text": "The council of war. The army must cross 100 yojanas of open ocean. How?",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "II": {
+          "text": "The council of war. The army must cross 100 yojanas of open ocean. How?",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "III": {
+          "text": "The spy Shuka returns with a description of Lanka's defenses — four great gates, massive armies, all led by warriors of formidable power. The intelligence report is clear: this will be a very hard war.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "IV": {
+          "text": "The army marches to the seashore — described as an ocean of fur and color, millions of monkeys of every size covering the plains.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "IX": {
+          "text": "Vibhishana, Ravana's younger brother, has attempted for the last time to persuade Ravana to return Sita. Ravana refuses and insults him. Vibhishana leaves Lanka with four of his counselors and offers his allegiance to Rama. Sugriva and most of the monkey chiefs distrust him — he is from the enemy. Hanuman alone counsels acceptance. Rama welcomes him: \"Even if Ravana himself came to me for shelter, I would give it.\"",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "X": {
+          "text": "Vibhishana, Ravana's younger brother, has attempted for the last time to persuade Ravana to return Sita. Ravana refuses and insults him. Vibhishana leaves Lanka with four of his counselors and offers his allegiance to Rama. Sugriva and most of the monkey chiefs distrust him — he is from the enemy. Hanuman alone counsels acceptance. Rama welcomes him: \"Even if Ravana himself came to me for shelter, I would give it.\"",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXI": {
+          "text": "Rama attempts to ask the ocean god to provide passage. He waits three days with folded hands. No response. Rama's patience breaks. He unsheathes his bow and begins firing arrows that dry up the ocean. The ocean god appears immediately: \"I could not appear before — the law of my nature is to be vast and deep, I cannot be otherwise. But here is a way: there is a monkey named Nala, son of the divine architect Vishvakarma, who has the ability to make stone float.\"",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXII": {
+          "text": "Rama attempts to ask the ocean god to provide passage. He waits three days with folded hands. No response. Rama's patience breaks. He unsheathes his bow and begins firing arrows that dry up the ocean. The ocean god appears immediately: \"I could not appear before — the law of my nature is to be vast and deep, I cannot be otherwise. But here is a way: there is a monkey named Nala, son of the divine architect Vishvakarma, who has the ability to make stone float.\"",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXIII": {
+          "text": "Rama attempts to ask the ocean god to provide passage. He waits three days with folded hands. No response. Rama's patience breaks. He unsheathes his bow and begins firing arrows that dry up the ocean. The ocean god appears immediately: \"I could not appear before — the law of my nature is to be vast and deep, I cannot be otherwise. But here is a way: there is a monkey named Nala, son of the divine architect Vishvakarma, who has the ability to make stone float.\"",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXIV": {
+          "text": "Nala leads the construction of the bridge (Rama Setu — the \"Bridge of Rama\"). The entire monkey army participates — tearing up trees and boulders and hurling them into the sea, where they float. The bridge is five yojanas wide and one hundred yojanas long. It is built in five days.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXVI": {
+          "text": "Ravana sends spies to count Rama's forces. They are captured by Vibhishana (who recognizes them), questioned, and released with a message: go back and tell Ravana what you saw. What they saw: an army that covers the earth.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXVII": {
+          "text": "Ravana sends spies to count Rama's forces. They are captured by Vibhishana (who recognizes them), questioned, and released with a message: go back and tell Ravana what you saw. What they saw: an army that covers the earth.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXVIII": {
+          "text": "Ravana sends spies to count Rama's forces. They are captured by Vibhishana (who recognizes them), questioned, and released with a message: go back and tell Ravana what you saw. What they saw: an army that covers the earth.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXIX": {
+          "text": "Ravana sends spies to count Rama's forces. They are captured by Vibhishana (who recognizes them), questioned, and released with a message: go back and tell Ravana what you saw. What they saw: an army that covers the earth.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXX": {
+          "text": "Ravana sends spies to count Rama's forces. They are captured by Vibhishana (who recognizes them), questioned, and released with a message: go back and tell Ravana what you saw. What they saw: an army that covers the earth.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXI": {
+          "text": "One of the most psychologically interesting episodes: Ravana, trying to break Sita's will, shows her what appears to be a severed head of Rama, brought by his commanders after a battle. Sita collapses in grief. But Sarama, a compassionate demoness, privately tells Sita: it was an illusion, a maya-construct. Rama is very much alive.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXVII": {
+          "text": "The army crosses the bridge and besieges Lanka. Rama and Sugriva climb Mount Suvela and survey the entire city. Ravana appears on the ramparts — and for a moment the two leaders look at each other across the distance. Sugriva, overcome by battle-rage, leaps onto Ravana's tower, wrestles his crown off, and escapes. It is an act of raw courage and foolishness in equal measure.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXVIII": {
+          "text": "The army crosses the bridge and besieges Lanka. Rama and Sugriva climb Mount Suvela and survey the entire city. Ravana appears on the ramparts — and for a moment the two leaders look at each other across the distance. Sugriva, overcome by battle-rage, leaps onto Ravana's tower, wrestles his crown off, and escapes. It is an act of raw courage and foolishness in equal measure.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XXXIX": {
+          "text": "The army crosses the bridge and besieges Lanka. Rama and Sugriva climb Mount Suvela and survey the entire city. Ravana appears on the ramparts — and for a moment the two leaders look at each other across the distance. Sugriva, overcome by battle-rage, leaps onto Ravana's tower, wrestles his crown off, and escapes. It is an act of raw courage and foolishness in equal measure.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XL": {
+          "text": "The army crosses the bridge and besieges Lanka. Rama and Sugriva climb Mount Suvela and survey the entire city. Ravana appears on the ramparts — and for a moment the two leaders look at each other across the distance. Sugriva, overcome by battle-rage, leaps onto Ravana's tower, wrestles his crown off, and escapes. It is an act of raw courage and foolishness in equal measure.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLI": {
+          "text": "The army crosses the bridge and besieges Lanka. Rama and Sugriva climb Mount Suvela and survey the entire city. Ravana appears on the ramparts — and for a moment the two leaders look at each other across the distance. Sugriva, overcome by battle-rage, leaps onto Ravana's tower, wrestles his crown off, and escapes. It is an act of raw courage and foolishness in equal measure.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLII": {
+          "text": "The army crosses the bridge and besieges Lanka. Rama and Sugriva climb Mount Suvela and survey the entire city. Ravana appears on the ramparts — and for a moment the two leaders look at each other across the distance. Sugriva, overcome by battle-rage, leaps onto Ravana's tower, wrestles his crown off, and escapes. It is an act of raw courage and foolishness in equal measure.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLIII": {
+          "text": "The great war begins. The combats are epic in scale and described with the detail and precision of a military historian embedded with armies. Ravana's son Indrajit (Meghnad — \"thunder-cloud voice\") is Lanka's most dangerous warrior. He uses the Brahmastra, the ultimate weapon, to bind Rama and Lakshmana in a serpentine net of arrows. The entire monkey army is immobilized. Rama and Lakshmana lie wounded and bound.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLIV": {
+          "text": "The great war begins. The combats are epic in scale and described with the detail and precision of a military historian embedded with armies. Ravana's son Indrajit (Meghnad — \"thunder-cloud voice\") is Lanka's most dangerous warrior. He uses the Brahmastra, the ultimate weapon, to bind Rama and Lakshmana in a serpentine net of arrows. The entire monkey army is immobilized. Rama and Lakshmana lie wounded and bound.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLV": {
+          "text": "The great war begins. The combats are epic in scale and described with the detail and precision of a military historian embedded with armies. Ravana's son Indrajit (Meghnad — \"thunder-cloud voice\") is Lanka's most dangerous warrior. He uses the Brahmastra, the ultimate weapon, to bind Rama and Lakshmana in a serpentine net of arrows. The entire monkey army is immobilized. Rama and Lakshmana lie wounded and bound.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XLVI": {
+          "text": "The great war begins. The combats are epic in scale and described with the detail and precision of a military historian embedded with armies. Ravana's son Indrajit (Meghnad — \"thunder-cloud voice\") is Lanka's most dangerous warrior. He uses the Brahmastra, the ultimate weapon, to bind Rama and Lakshmana in a serpentine net of arrows. The entire monkey army is immobilized. Rama and Lakshmana lie wounded and bound.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "L": {
+          "text": "Garuda — the divine eagle, Vishnu's vehicle — appears and the snake-arrows dissolve. Rama and Lakshmana are healed.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LI": {
+          "text": "Wave after wave of Ravana's great warriors are sent out and defeated: Dhúmráksha (killed by Hanuman), Vajradanshtra (killed by Angad).",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LII": {
+          "text": "Wave after wave of Ravana's great warriors are sent out and defeated: Dhúmráksha (killed by Hanuman), Vajradanshtra (killed by Angad).",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LIII": {
+          "text": "Wave after wave of Ravana's great warriors are sent out and defeated: Dhúmráksha (killed by Hanuman), Vajradanshtra (killed by Angad).",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LIV": {
+          "text": "Wave after wave of Ravana's great warriors are sent out and defeated: Dhúmráksha (killed by Hanuman), Vajradanshtra (killed by Angad).",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LX": {
+          "text": "Ravana wakes his brother Kumbhakarna — a being of such enormous physical power that Brahma cursed him to sleep six months of every year, lest he eat the world. Kumbhakarna awakes ravenous, is fed a meal of elephants, buffalo, and deer by the hundreds, and asks what is happening. He is horrified by Ravana's actions — \"You should have thought before you did this. But now that it is done, I will fight\" — and goes to war. He single-handedly devastates the monkey army, scattering hundreds, eating dozens, and wounding Sugriva badly enough that he is carried from the field. He is only stopped by Rama himself, who cuts off his arms, his head, and finally destroys him.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXI": {
+          "text": "Ravana wakes his brother Kumbhakarna — a being of such enormous physical power that Brahma cursed him to sleep six months of every year, lest he eat the world. Kumbhakarna awakes ravenous, is fed a meal of elephants, buffalo, and deer by the hundreds, and asks what is happening. He is horrified by Ravana's actions — \"You should have thought before you did this. But now that it is done, I will fight\" — and goes to war. He single-handedly devastates the monkey army, scattering hundreds, eating dozens, and wounding Sugriva badly enough that he is carried from the field. He is only stopped by Rama himself, who cuts off his arms, his head, and finally destroys him.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXII": {
+          "text": "Ravana wakes his brother Kumbhakarna — a being of such enormous physical power that Brahma cursed him to sleep six months of every year, lest he eat the world. Kumbhakarna awakes ravenous, is fed a meal of elephants, buffalo, and deer by the hundreds, and asks what is happening. He is horrified by Ravana's actions — \"You should have thought before you did this. But now that it is done, I will fight\" — and goes to war. He single-handedly devastates the monkey army, scattering hundreds, eating dozens, and wounding Sugriva badly enough that he is carried from the field. He is only stopped by Rama himself, who cuts off his arms, his head, and finally destroys him.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXIII": {
+          "text": "Ravana wakes his brother Kumbhakarna — a being of such enormous physical power that Brahma cursed him to sleep six months of every year, lest he eat the world. Kumbhakarna awakes ravenous, is fed a meal of elephants, buffalo, and deer by the hundreds, and asks what is happening. He is horrified by Ravana's actions — \"You should have thought before you did this. But now that it is done, I will fight\" — and goes to war. He single-handedly devastates the monkey army, scattering hundreds, eating dozens, and wounding Sugriva badly enough that he is carried from the field. He is only stopped by Rama himself, who cuts off his arms, his head, and finally destroys him.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXIV": {
+          "text": "Ravana wakes his brother Kumbhakarna — a being of such enormous physical power that Brahma cursed him to sleep six months of every year, lest he eat the world. Kumbhakarna awakes ravenous, is fed a meal of elephants, buffalo, and deer by the hundreds, and asks what is happening. He is horrified by Ravana's actions — \"You should have thought before you did this. But now that it is done, I will fight\" — and goes to war. He single-handedly devastates the monkey army, scattering hundreds, eating dozens, and wounding Sugriva badly enough that he is carried from the field. He is only stopped by Rama himself, who cuts off his arms, his head, and finally destroys him.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXV": {
+          "text": "Ravana wakes his brother Kumbhakarna — a being of such enormous physical power that Brahma cursed him to sleep six months of every year, lest he eat the world. Kumbhakarna awakes ravenous, is fed a meal of elephants, buffalo, and deer by the hundreds, and asks what is happening. He is horrified by Ravana's actions — \"You should have thought before you did this. But now that it is done, I will fight\" — and goes to war. He single-handedly devastates the monkey army, scattering hundreds, eating dozens, and wounding Sugriva badly enough that he is carried from the field. He is only stopped by Rama himself, who cuts off his arms, his head, and finally destroys him.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXVI": {
+          "text": "Ravana wakes his brother Kumbhakarna — a being of such enormous physical power that Brahma cursed him to sleep six months of every year, lest he eat the world. Kumbhakarna awakes ravenous, is fed a meal of elephants, buffalo, and deer by the hundreds, and asks what is happening. He is horrified by Ravana's actions — \"You should have thought before you did this. But now that it is done, I will fight\" — and goes to war. He single-handedly devastates the monkey army, scattering hundreds, eating dozens, and wounding Sugriva badly enough that he is carried from the field. He is only stopped by Rama himself, who cuts off his arms, his head, and finally destroys him.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXVII": {
+          "text": "Ravana wakes his brother Kumbhakarna — a being of such enormous physical power that Brahma cursed him to sleep six months of every year, lest he eat the world. Kumbhakarna awakes ravenous, is fed a meal of elephants, buffalo, and deer by the hundreds, and asks what is happening. He is horrified by Ravana's actions — \"You should have thought before you did this. But now that it is done, I will fight\" — and goes to war. He single-handedly devastates the monkey army, scattering hundreds, eating dozens, and wounding Sugriva badly enough that he is carried from the field. He is only stopped by Rama himself, who cuts off his arms, his head, and finally destroys him.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXVIII": {
+          "text": "Ravana weeps over Kumbhakarna's death. This is one of the few moments of genuine vulnerability in the demon king — his grief for his brother is real and human.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXIX": {
+          "text": "Ravana's sons Narántaka, Atikáya, and Trishiras are killed. Indrajit attacks again using the Pashupatastra (weapon of Shiva) and appears to slay Sita with it before Hanuman's eyes. The monkey army is in despair. But Vibhishana suspects an illusion — a maya-Sita. He is right.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXX": {
+          "text": "Ravana's sons Narántaka, Atikáya, and Trishiras are killed. Indrajit attacks again using the Pashupatastra (weapon of Shiva) and appears to slay Sita with it before Hanuman's eyes. The monkey army is in despair. But Vibhishana suspects an illusion — a maya-Sita. He is right.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXXI": {
+          "text": "Ravana's sons Narántaka, Atikáya, and Trishiras are killed. Indrajit attacks again using the Pashupatastra (weapon of Shiva) and appears to slay Sita with it before Hanuman's eyes. The monkey army is in despair. But Vibhishana suspects an illusion — a maya-Sita. He is right.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXXII": {
+          "text": "Ravana's sons Narántaka, Atikáya, and Trishiras are killed. Indrajit attacks again using the Pashupatastra (weapon of Shiva) and appears to slay Sita with it before Hanuman's eyes. The monkey army is in despair. But Vibhishana suspects an illusion — a maya-Sita. He is right.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXXIII": {
+          "text": "Ravana's sons Narántaka, Atikáya, and Trishiras are killed. Indrajit attacks again using the Pashupatastra (weapon of Shiva) and appears to slay Sita with it before Hanuman's eyes. The monkey army is in despair. But Vibhishana suspects an illusion — a maya-Sita. He is right.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXXIV": {
+          "text": "Rama and Lakshmana and much of the army are gravely wounded by Indrajit's weapons. Jambavan the bear, nearly dead, whispers to Hanuman: go to the Himalayan mountains, to the Gandhamadana mountain. There grow four magical healing herbs — Mritasanjivani (restores the dead), Vishalyakarani (removes arrow wounds), Sauvarnakarani (restores the color of skin), and Sandhanakarani (reconnects severed limbs). Bring them before dawn.\n\nHanuman flies to the Himalayas, cannot identify the specific herbs in the darkness, and in the boldest practical solution in the epic — lifts the entire mountain and carries it back. The scent of the herbs revives the army as he passes overhead.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "LXXV": {
+          "text": "Ravana's sons Narántaka, Atikáya, and Trishiras are killed. Indrajit attacks again using the Pashupatastra (weapon of Shiva) and appears to slay Sita with it before Hanuman's eyes. The monkey army is in despair. But Vibhishana suspects an illusion — a maya-Sita. He is right.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "XCVI": {
+          "text": "Ravana himself enters the field. He is a warrior of cosmic power — his ten heads and twenty arms represent the ten senses and ten vital airs, symbolically. His weapons are divine. He wrecks the monkey army.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "C": {
+          "text": "Ravana wounds Lakshmana so severely that he collapses. Rama carries him in his arms, fighting and weeping simultaneously. Hanuman brings the herbs again; Lakshmana is healed.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CI": {
+          "text": "Ravana wounds Lakshmana so severely that he collapses. Rama carries him in his arms, fighting and weeping simultaneously. Hanuman brings the herbs again; Lakshmana is healed.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CII": {
+          "text": "Ravana wounds Lakshmana so severely that he collapses. Rama carries him in his arms, fighting and weeping simultaneously. Hanuman brings the herbs again; Lakshmana is healed.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CIII": {
+          "text": "The god Indra sends his divine chariot and divine charioteer Matali to Rama, who is fighting on foot while Ravana rides his sky-chariot. With Indra's chariot, they are at last on equal terms.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CVI": {
+          "text": "Before the final battle, Rama worships the Sun with the Aditya Hridayam — the \"Heart of the Sun,\" a hymn taught to him by the sage Agastya. This is one of the most famous passages in the entire Ramayana, still recited daily by millions.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CVIII": {
+          "text": "The final combat. It is long and equal — weapon for weapon, stratagem for stratagem. Ravana's ten heads are cut off and regrow. Then Agastya's teaching comes to Rama: use the Brahmastra, the ultimate arrow, given by Brahma himself, with cosmic elements in each part of it. Rama draws the bow. The arrow strikes Ravana in the chest and releases — and Ravana falls. The sky clears. The gods celebrate.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CIX": {
+          "text": "The final combat. It is long and equal — weapon for weapon, stratagem for stratagem. Ravana's ten heads are cut off and regrow. Then Agastya's teaching comes to Rama: use the Brahmastra, the ultimate arrow, given by Brahma himself, with cosmic elements in each part of it. Rama draws the bow. The arrow strikes Ravana in the chest and releases — and Ravana falls. The sky clears. The gods celebrate.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CX": {
+          "text": "The final combat. It is long and equal — weapon for weapon, stratagem for stratagem. Ravana's ten heads are cut off and regrow. Then Agastya's teaching comes to Rama: use the Brahmastra, the ultimate arrow, given by Brahma himself, with cosmic elements in each part of it. Rama draws the bow. The arrow strikes Ravana in the chest and releases — and Ravana falls. The sky clears. The gods celebrate.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CXI": {
+          "text": "Vibhishana weeps over Ravana's body. Despite everything, this was his brother. Ravana's wives mourn. Mandodari, Ravana's chief wife, delivers a magnificent lament — acknowledging Ravana's greatness as a ruler, warrior, and scholar while grieving his fatal flaw: desire for another man's wife.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CXII": {
+          "text": "Vibhishana weeps over Ravana's body. Despite everything, this was his brother. Ravana's wives mourn. Mandodari, Ravana's chief wife, delivers a magnificent lament — acknowledging Ravana's greatness as a ruler, warrior, and scholar while grieving his fatal flaw: desire for another man's wife.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CXIII": {
+          "text": "Vibhishana weeps over Ravana's body. Despite everything, this was his brother. Ravana's wives mourn. Mandodari, Ravana's chief wife, delivers a magnificent lament — acknowledging Ravana's greatness as a ruler, warrior, and scholar while grieving his fatal flaw: desire for another man's wife.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CXIV": {
+          "text": "Vibhishana is crowned king of Lanka. This is the right order: a righteous Rakshasa rules Lanka, not an unrighteous one.\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CXV": {
+          "text": "Sita is brought before Rama from the Ashoka grove. She is radiant with happiness — and then Rama speaks words that devastate her.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CXVI": {
+          "text": "Sita is brought before Rama from the Ashoka grove. She is radiant with happiness — and then Rama speaks words that devastate her.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CXVII": {
+          "text": "Rama refuses to simply take Sita back. He speaks publicly, formally: she has lived in another man's house for months. He cannot accept her — not for his own sake, but because loka apavada, \"what the world will say,\" would dishonor the family and the kingdom. He suggests she may go wherever she chooses — to Lakshmana, to Bharata, to Vibhishana — but he cannot take her as his own.\n\nThis is the most contested moment in the entire epic. Readers and commentators across two millennia have struggled with it. Some see Rama as failing the woman who trusted him completely. Others see it as Rama's deliberate action to set up Sita's trial so that her purity can be established before all the gods, not just before him. Some see it as the action of a human king bound by political reality — he is not merely Rama the husband, he is Rama the king-to-be, whose queen must be above all suspicion.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CXVIII": {
+          "text": "Sita's response is the counterpart to her refusal of Ravana in the Ashoka grove. She is not afraid. She is not begging. She speaks with absolute clarity: \"I am pure. I have never turned my heart from you for a single moment. If you question my body, I can only appeal to fire.\" She asks Lakshmana to build the pyre.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CXIX": {
+          "text": "Sita enters the fire. The god Agni himself emerges from the flames holding Sita — radiant, unburned, every ornament and garment restored. He places her before Rama: \"This woman is pure. I have tested her across every dimension of creation. There is no fault in her.\" The gods themselves testify.\n\nThe cosmos reveals Rama to himself: Brahma, Indra, the sages, and all the celestials appear and greet Rama as Vishnu, reminding him of his divine mission. He accepts Sita fully.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CXX": {
+          "text": "Sita enters the fire. The god Agni himself emerges from the flames holding Sita — radiant, unburned, every ornament and garment restored. He places her before Rama: \"This woman is pure. I have tested her across every dimension of creation. There is no fault in her.\" The gods themselves testify.\n\nThe cosmos reveals Rama to himself: Brahma, Indra, the sages, and all the celestials appear and greet Rama as Vishnu, reminding him of his divine mission. He accepts Sita fully.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CXXI": {
+          "text": "The spirit of Dasharatha descends from heaven and blesses both Rama and Kaushalya. Indra grants Rama a boon: the monkey warriors who died in battle are all restored to life.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CXXII": {
+          "text": "The spirit of Dasharatha descends from heaven and blesses both Rama and Kaushalya. Indra grants Rama a boon: the monkey warriors who died in battle are all restored to life.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CXXIII": {
+          "text": "Vibhishana provides the Pushpaka Vimana — the flying \"flower-chariot\" — for the journey home. Rama takes the entire company: Sita, Lakshmana, Hanuman, Sugriva, Vibhishana and the monkeys. Flying over the route of the exile, Rama points out to Sita every place of their journey — the bridge, the ocean, Kishkindha, Panchavati, Chitrakuta, the Ganges, Ayodhya in the distance.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CXXIV": {
+          "text": "Vibhishana provides the Pushpaka Vimana — the flying \"flower-chariot\" — for the journey home. Rama takes the entire company: Sita, Lakshmana, Hanuman, Sugriva, Vibhishana and the monkeys. Flying over the route of the exile, Rama points out to Sita every place of their journey — the bridge, the ocean, Kishkindha, Panchavati, Chitrakuta, the Ganges, Ayodhya in the distance.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CXXV": {
+          "text": "Vibhishana provides the Pushpaka Vimana — the flying \"flower-chariot\" — for the journey home. Rama takes the entire company: Sita, Lakshmana, Hanuman, Sugriva, Vibhishana and the monkeys. Flying over the route of the exile, Rama points out to Sita every place of their journey — the bridge, the ocean, Kishkindha, Panchavati, Chitrakuta, the Ganges, Ayodhya in the distance.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CXXVI": {
+          "text": "Hanuman flies ahead as messenger to Bharata, who is at Nandigrama with Rama's sandals on the throne. Bharata is told Rama is coming. The description of Bharata's response — fourteen years of waiting collapsing in a single moment — is a small masterpiece of emotional writing.",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CXXVII": {
+          "text": "The reunion at Nandigrama. Bharata falls at Rama's feet. He removes the sandals from the throne and places them on Rama's feet. The procession enters Ayodhya. The coronation of Rama — Rama-Rajya, the reign of Rama — the golden age of just and compassionate governance, begins.\n\n---\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CXXVIII": {
+          "text": "The reunion at Nandigrama. Bharata falls at Rama's feet. He removes the sandals from the throne and places them on Rama's feet. The procession enters Ayodhya. The coronation of Rama — Rama-Rajya, the reign of Rama — the golden age of just and compassionate governance, begins.\n\n---\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CXXIX": {
+          "text": "The reunion at Nandigrama. Bharata falls at Rama's feet. He removes the sandals from the throne and places them on Rama's feet. The procession enters Ayodhya. The coronation of Rama — Rama-Rajya, the reign of Rama — the golden age of just and compassionate governance, begins.\n\n---\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        },
+        "CXXX": {
+          "text": "The reunion at Nandigrama. Bharata falls at Rama's feet. He removes the sandals from the throne and places them on Rama's feet. The procession enters Ayodhya. The coronation of Rama — Rama-Rajya, the reign of Rama — the golden age of just and compassionate governance, begins.\n\n---\n\n---",
+          "keyIdea": null,
+          "inlineImage": null
+        }
+      }
+    },
+    "VII": {
+      "intro": "The Book of the Aftermath (Not in the Griffith Text)\n\nNote: The Griffith translation does not include the Uttara Kanda, and scholars generally consider it a later addition to the original epic (not by Valmiki). It is, however, widely read and is part of the canonical tradition.\n\nWhat this book is about: The consequences of the victory. Rama's reign. The backstory of Ravana and how he came to be a demon king. And the most tragic episode of the entire Ramayana: Rama's banishment of Sita.\n\n---\n\nSummary of the Uttara Kanda\n\nRavana's Backstory\nLong sections narrate the history of Ravana: how he earned his boons from Brahma through extreme austerities, how he conquered the three worlds, how Vishnu was forced to act. This \"pre-history\" contextualizes Ravana as a figure of genuine grandeur who destroyed himself through his one fatal flaw.\n\nThe Reign of Rama (Rama-Rajya)\nRama's reign is described as a golden age: there is no disease, no early death, no poverty, no injustice. The trees bear fruit in all seasons. Rain falls when needed. Everyone is content. This ideal is still invoked in Indian political discourse today — Ram-Rajya remains a live term for good governance.\n\nThe Banishment of Sita\nThe catastrophe: a washerman in Ayodhya quarrels with his wife, who had spent a night away from home, and says publicly: \"I am not Rama, to take back a wife who lived in another man's house.\" This gossip reaches Rama. He is devastated — but as king, he believes he cannot ignore public doubt about his queen's purity. He asks Lakshmana to take Sita into the forest near Valmiki's hermitage and leave her there, without telling her she is not coming back.\n\nSita is pregnant. She is left in the forest without explanation. She gives birth to twin sons, Lava and Kusha, who are raised by Valmiki.\n\nThis episode has been the subject of the most intense ethical debate in the entire tradition. Some see it as Rama's greatest failure — he chooses political reputation over personal fidelity to a woman he knows is innocent. Others see it as the tragic limitation of kingship itself: a king cannot be only a husband; he is answerable to his entire people. The tension is real and unresolved by the text.\n\nLava and Kusha\nThe twins grow up at Valmiki's hermitage, trained in archery to supernatural levels. They learn and memorize the Ramayana — all 24,000 verses. They recite it at Rama's great horse sacrifice, not knowing who their father is. Rama weeps hearing his own story sung. He recognizes the boys, learns they are his sons, and asks Sita to return.\n\nSita's Last Act\nSita comes before the assembly — before Rama, his brothers, the sages, the court, the gods. Rama asks her to take the oath of fire again, publicly, to silence any remaining doubt. Sita refuses. She says, quietly and finally: \"If I have never in thought, word, or deed been false to Rama, then let Mother Earth receive me.\" The earth opens. Her mother the Earth-goddess rises and takes Si",
+      "cantoMap": {}
+    }
+  }
+};
