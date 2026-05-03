@@ -994,13 +994,11 @@
     }
     if (rows.length < 2) return '<p>' + escHtml(text) + '</p>';
 
-    var html = '<div class="kandas-grid">';
-    var headerRow = rows[0];
-    html += '<div class="kandas-grid-header">';
-    headerRow.forEach(function (cell) {
+    var numCols = rows[0].length;
+    var html = '<div class="kandas-grid" style="grid-template-columns:repeat(' + numCols + ',1fr);">';
+    rows[0].forEach(function (cell) {
       html += '<div class="kandas-grid-cell kandas-header">' + escHtml(cell) + '</div>';
     });
-    html += '</div>';
 
     for (var r = 1; r < rows.length; r++) {
       rows[r].forEach(function (cell) {
