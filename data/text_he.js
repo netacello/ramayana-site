@@ -1,4 +1,4 @@
-var books = [
+var RAMAYANA_TEXT_HE = [
   {
     "number": "I",
     "title": "בָּלַה קָנְדָה",

@@ -17,7 +17,7 @@ for t in translations:
     else:
         print(f"WARNING: canto {num} not found")
 with open('data/text_he.js', 'w', encoding='utf-8') as f:
-    f.write('var books = ' + json.dumps(data, ensure_ascii=False, indent=2) + ';')
+    f.write('var RAMAYANA_TEXT_HE = ' + json.dumps(data, ensure_ascii=False, indent=2) + ';')
 print("Done. Verifying Hebrew content...")
 for t in translations:
     he_count = sum(sum(1 for ch in p if 'א' <= ch <= 'ת') for p in t['paragraphs'])

@@ -21,7 +21,7 @@ for t in translations:
         print(f"WARNING: canto {num} not found")
 
 with open('data/text_he.js', 'w', encoding='utf-8') as f:
-    f.write('var books = ' + json.dumps(data, ensure_ascii=False, indent=2) + ';')
+    f.write('var RAMAYANA_TEXT_HE = ' + json.dumps(data, ensure_ascii=False, indent=2) + ';')
 
 print("Done. Verifying Hebrew content...")
 for t in translations:
